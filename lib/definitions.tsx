@@ -28,9 +28,9 @@ export const contactLinks: ContactLink[] = [
   },
   {
     key: "github",
-    href: "https://github.com/BakeNayk0",
+    href: "https://github.com/n4yk0",
     icon: <Github className="h-5 w-5" />,
-    value: "BakeNayk0",
+    value: "n4yk0",
     external: true,
   },
   {
