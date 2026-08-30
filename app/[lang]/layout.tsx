@@ -53,7 +53,7 @@ export default async function RootLayout(props: {
           <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 sm:px-6">
             <Navbar lang={params.lang} dict={dict} />
             <main className="flex-1 pt-28 sm:pt-32">{children}</main>
-            <Footer dict={dict} />
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
