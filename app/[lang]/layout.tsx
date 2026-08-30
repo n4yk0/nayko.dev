@@ -16,15 +16,22 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const params = await props.params
   const dict = await getDictionary(params.lang)
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nayko.dev"
 
   return {
+    metadataBase: new URL(siteUrl),
     title: dict.meta.title,
     description: dict.meta.description,
     icons: { icon: "/n4yk0-badge.png" },
+    alternates: {
+      canonical: `/${params.lang}`,
+      languages: { "en-US": "/en", "fr-FR": "/fr" },
+    },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
       type: "profile",
+      url: `/${params.lang}`,
       locale: params.lang === "fr" ? "fr_FR" : "en_US",
       images: [{ url: "/n4yk0-badge.png", width: 512, height: 512, alt: "n4yk0" }],
     },
