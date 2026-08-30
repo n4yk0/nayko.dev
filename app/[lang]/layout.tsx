@@ -20,13 +20,13 @@ export async function generateMetadata(props: {
   return {
     title: dict.meta.title,
     description: dict.meta.description,
-    icons: { icon: "/n4yk0.png" },
+    icons: { icon: "/n4yk0-badge.png" },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
       type: "profile",
       locale: params.lang === "fr" ? "fr_FR" : "en_US",
-      images: [{ url: "/n4yk0.png", width: 1024, height: 1024, alt: "n4yk0" }],
+      images: [{ url: "/n4yk0-badge.png", width: 512, height: 512, alt: "n4yk0" }],
     },
   }
 }

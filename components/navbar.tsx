@@ -10,7 +10,9 @@ export const Navbar = ({ lang, dict }: { lang: string; dict: Dictionary }) => {
       <div className="w-full max-w-4xl border-b border-border/40 bg-background/80 backdrop-blur-md">
         <div className="flex items-center gap-3 px-4 py-3 sm:px-6">
           <Link href={`/${lang}`} className="flex items-center gap-2">
-            <Image src="/n4yk0.png" alt="" width={28} height={28} className="h-6 w-6 object-contain" />
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white ring-1 ring-black/5">
+              <Image src="/n4yk0.png" alt="" width={28} height={28} className="h-5 w-5 object-contain" />
+            </span>
             <span className="font-mono text-sm font-semibold tracking-tight text-foreground">{dict.hero.handle}</span>
           </Link>
 
