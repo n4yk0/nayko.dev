@@ -1,7 +1,7 @@
-# n4yk0-portfolio
+# nayko.dev
 
 Source for **[nayko.dev](https://nayko.dev)** — the personal site and online CV of
-n4yk0, a software engineer based in France.
+**n4yk0**, a security-minded software engineer.
 
 A single bilingual page (English / French) covering experience, skills and
 contact details, built to be read quickly rather than browsed.
@@ -48,10 +48,10 @@ app/globals.css        Tailwind entry point and theme tokens
 components/sections/   one component per page section
 components/ui/         shadcn/ui primitives
 dictionaries/          all copy, one file per locale
-lib/definitions.tsx    contact links and experience logos
+lib/definitions.tsx    contact links and experience data
 middleware.ts          locale negotiation
 ```
 
-## Author
+## Contact
 
-[n4yk0](https://nayko.dev) — [LinkedIn](https://www.linkedin.com/in/n4yk0-617301129/)
+[n4yk0](https://nayko.dev) — [GitHub](https://github.com/n4yk0) · n4yk0@proton.me
