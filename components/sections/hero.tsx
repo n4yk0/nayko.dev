@@ -52,16 +52,18 @@ export const Hero = ({ dict }: { dict: Dictionary }) => {
           <ActionLinks dict={dict} className="justify-center sm:justify-start" />
         </div>
 
-        <div className="relative flex h-40 w-40 shrink-0 items-center justify-center rounded-full border border-border/70 bg-card/40 sm:h-44 sm:w-44">
+        <div className="relative flex h-40 w-40 shrink-0 items-center justify-center sm:h-44 sm:w-44">
           <div className="brand-glow pointer-events-none absolute inset-0 rounded-full" aria-hidden="true" />
-          <Image
-            src="/n4yk0.png"
-            alt={handle}
-            width={144}
-            height={144}
-            priority
-            className="relative h-28 w-28 object-contain sm:h-32 sm:w-32"
-          />
+          <div className="relative flex h-32 w-32 items-center justify-center rounded-full bg-white shadow-lg shadow-black/25 ring-1 ring-black/5 sm:h-36 sm:w-36">
+            <Image
+              src="/n4yk0.png"
+              alt={handle}
+              width={144}
+              height={144}
+              priority
+              className="h-24 w-24 object-contain sm:h-28 sm:w-28"
+            />
+          </div>
         </div>
       </div>
 
