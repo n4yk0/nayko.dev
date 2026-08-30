@@ -8,15 +8,12 @@ type ExperienceItem = Dictionary["experience"]["items"][number] & {
 export const Experience = ({ dict }: { dict: Dictionary }) => {
   return (
     <section aria-labelledby="experience-heading" className="flex flex-col gap-5">
-      <div className="flex flex-col gap-1.5">
-        <h2
-          id="experience-heading"
-          className="font-mono text-sm font-semibold uppercase tracking-widest text-muted-foreground"
-        >
-          <span className="text-primary">#</span> {dict.experience.title}
-        </h2>
-        <p className="font-mono text-xs text-muted-foreground/70">{dict.experience.note}</p>
-      </div>
+      <h2
+        id="experience-heading"
+        className="font-mono text-sm font-semibold uppercase tracking-widest text-muted-foreground"
+      >
+        <span className="text-primary">#</span> {dict.experience.title}
+      </h2>
 
       <ol className="flex flex-col">
         {(dict.experience.items as ExperienceItem[]).map((item) => (

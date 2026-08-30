@@ -32,39 +32,38 @@
   },
   "experience": {
     "title": "Expérience",
-    "note": "Employeurs gardés privés par choix — je partage les détails avec plaisir de vive voix.",
     "items": [
       {
-        "org": "Studio de produits numériques",
+        "org": "Elipce Solutions",
         "role": "Ingénieur logiciel",
         "date": "2025 — Aujourd'hui",
         "description": "Applications web & mobile sur mesure pour différents clients, sur tout le cycle de vie projet — du front au back.",
         "stack": ["React", "Ionic", "TypeScript", "Laravel", "Django"]
       },
       {
-        "org": "SaaS santé",
+        "org": "CBA Informatique Libérale",
         "role": "Développeur fullstack",
         "date": "2023 — 2025",
-        "description": "Plateforme de prise de rendez-vous pour les soins à domicile, utilisée par plus de 80 000 personnes. Maintenance de la librairie de composants UI avec l'équipe design.",
+        "description": "Opaline Santé — plateforme de prise de rendez-vous pour les soins à domicile, utilisée par plus de 80 000 personnes. Maintenance de la librairie de composants UI avec l'équipe design.",
         "stack": ["Next.js", "Symfony", "Design system"]
       },
       {
-        "org": "Santé mobile",
+        "org": "Arche MC2",
         "role": "Développeur Android",
         "date": "2018 — 2023",
-        "description": "Applications hors-ligne pour les soins infirmiers à domicile et les EHPAD — base SQLite embarquée et synchronisation en tâche de fond pour les zones à faible couverture.",
+        "description": "Applications hors-ligne pour les soins infirmiers à domicile et les EHPAD — base SQLite embarquée et synchronisation en tâche de fond pour les zones à faible couverture. Java/Kotlin, puis Flutter.",
         "stack": ["Java", "Kotlin", "Flutter", "SQLite"]
       },
       {
-        "org": "Startup réalité augmentée",
+        "org": "Logic'gram",
         "role": "Développeur",
         "date": "2017",
-        "description": "Application cross-platform en réalité augmentée affichant en temps réel des points d'intérêt géolocalisés, avec une couche native iPad.",
+        "description": "Application cross-platform en réalité augmentée sous Unity affichant en temps réel des points d'intérêt géolocalisés, avec une couche native Swift pour iPad.",
         "stack": ["Unity", "C#", "Swift"]
       },
       {
         "org": "Master Génie Logiciel",
-        "role": "Génie logiciel · France",
+        "role": "Université d'Avignon (CERI)",
         "date": "2015 — 2017",
         "description": "",
         "stack": []

@@ -32,39 +32,38 @@
   },
   "experience": {
     "title": "Experience",
-    "note": "Employers kept private by choice — happy to share specifics in conversation.",
     "items": [
       {
-        "org": "Digital product studio",
+        "org": "Elipce Solutions",
         "role": "Software Engineer",
         "date": "2025 — Present",
         "description": "Custom web & mobile apps for a range of clients, across the full project lifecycle — front end to back.",
         "stack": ["React", "Ionic", "TypeScript", "Laravel", "Django"]
       },
       {
-        "org": "Healthcare SaaS",
+        "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
         "date": "2023 — 2025",
-        "description": "Home-care booking platform serving 80,000+ users. Also maintained the shared UI component library alongside the design team.",
+        "description": "Opaline Santé — a home-care booking platform serving 80,000+ users. Also maintained the shared UI component library alongside the design team.",
         "stack": ["Next.js", "Symfony", "Design system"]
       },
       {
-        "org": "Mobile health",
+        "org": "Arche MC2",
         "role": "Android Developer",
         "date": "2018 — 2023",
-        "description": "Offline-first apps for home nursing and care homes — embedded SQLite and background sync to keep working in low-coverage areas.",
+        "description": "Offline-first apps for home nursing and care homes — embedded SQLite and background sync to keep working in low-coverage areas. Java/Kotlin, later Flutter.",
         "stack": ["Java", "Kotlin", "Flutter", "SQLite"]
       },
       {
-        "org": "AR startup",
+        "org": "Logic'gram",
         "role": "Developer",
         "date": "2017",
-        "description": "Cross-platform augmented-reality app showing geolocated points of interest in real time, with a native iPad layer.",
+        "description": "Cross-platform augmented-reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
         "stack": ["Unity", "C#", "Swift"]
       },
       {
         "org": "M.Sc. Software Engineering",
-        "role": "Software Engineering · France",
+        "role": "University of Avignon (CERI)",
         "date": "2015 — 2017",
         "description": "",
         "stack": []

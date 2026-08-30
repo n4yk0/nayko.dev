@@ -49,8 +49,8 @@ export const Hero = ({ dict }: { dict: Dictionary }) => {
           <ActionLinks dict={dict} className="justify-center sm:justify-start" />
         </div>
 
-        <div className="relative flex h-40 w-40 shrink-0 items-center justify-center rounded-2xl border border-border/70 bg-card/40 sm:h-44 sm:w-44">
-          <div className="brand-glow pointer-events-none absolute inset-0 rounded-2xl" aria-hidden="true" />
+        <div className="relative flex h-40 w-40 shrink-0 items-center justify-center rounded-full border border-border/70 bg-card/40 sm:h-44 sm:w-44">
+          <div className="brand-glow pointer-events-none absolute inset-0 rounded-full" aria-hidden="true" />
           <Image
             src="/n4yk0.png"
             alt={handle}
