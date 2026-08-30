@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "n4yk0 — Software Engineer & Application Security",
-    "description": "Software engineer and appsec practitioner. Web & mobile with React, Next.js, TypeScript and Python; OWASP-minded and RNCP-certified in cybersecurity. Open to new opportunities."
+    "title": "n4yk0 — Senior Software Engineer, security-minded",
+    "description": "Senior software engineer with a security mindset. Web & mobile with React, Next.js, TypeScript and Python; OWASP practices and RNCP-certified in cybersecurity. Open to new opportunities."
   },
   "nav": {
     "switch_language": "Switch to French",
@@ -9,16 +9,17 @@
     "status": "available"
   },
   "hero": {
-    "role": "Software Engineer · Application Security",
+    "role": "Senior Software Engineer · Security-minded",
     "handle": "n4yk0",
-    "tagline": "I build web & mobile products — and pentest them before anyone else gets the chance.",
+    "tagline": "I build web & mobile products with security built in — not bolted on.",
+    "years": "8+ years",
     "prompt_user": "visitor",
     "prompt_host": "n4yk0",
     "whoami_cmd": "whoami",
     "whoami": [
       "Software engineer shipping web & mobile since 2017 — mostly for healthcare.",
       "Day-to-day in React, Next.js & TypeScript; Python / Django on the back end.",
-      "RNCP-certified in cybersecurity — I ship with OWASP in mind and train on Hack The Box.",
+      "RNCP-certified in cybersecurity — I build with OWASP in mind and treat security as part of shipping, not an afterthought.",
       "Clear communication, maintainable code, work a team can build on."
     ],
     "status": "available for work",
@@ -87,7 +88,7 @@
       },
       {
         "label": "Security",
-        "items": ["OWASP", "Penetration testing", "Hack The Box"]
+        "items": ["OWASP", "Secure coding", "Penetration testing"]
       },
       {
         "label": "AI-assisted workflow",
@@ -97,7 +98,7 @@
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "Open to new opportunities in engineering and application security. Email is the fastest way to reach me — I reply to every message.",
+    "subtitle": "Open to new engineering opportunities where security matters. Email is the fastest way to reach me — I reply to every message.",
     "email_note": "Preferred",
     "github_note": "Code & side projects"
   },

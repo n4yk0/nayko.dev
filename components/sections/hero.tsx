@@ -5,7 +5,7 @@ import { Terminal } from "@/components/terminal"
 import type { Dictionary } from "@/lib/dictionaries"
 
 export const Hero = ({ dict }: { dict: Dictionary }) => {
-  const { role, handle, tagline, prompt_user, prompt_host, whoami_cmd, whoami, status, french, english, remote } =
+  const { role, handle, tagline, years, prompt_user, prompt_host, whoami_cmd, whoami, status, french, english, remote } =
     dict.hero
 
   return (
@@ -33,6 +33,9 @@ export const Hero = ({ dict }: { dict: Dictionary }) => {
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-success" />
               </span>
               {status}
+            </span>
+            <span className="rounded-full border border-border/60 bg-secondary/60 px-3 py-1 font-mono text-xs text-foreground">
+              {years}
             </span>
             <span className="rounded-full border border-border/60 bg-secondary/60 px-3 py-1 font-mono text-xs text-muted-foreground">
               {french}

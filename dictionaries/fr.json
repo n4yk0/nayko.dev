@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "n4yk0 — Ingénieur logiciel & sécurité applicative",
-    "description": "Ingénieur logiciel et sécurité applicative. Web & mobile avec React, Next.js, TypeScript et Python ; approche OWASP, certifié RNCP en cybersécurité. Ouvert à de nouvelles opportunités."
+    "title": "n4yk0 — Ingénieur logiciel senior, orienté sécurité",
+    "description": "Ingénieur logiciel senior à l'esprit sécurité. Web & mobile avec React, Next.js, TypeScript et Python ; pratiques OWASP, certifié RNCP en cybersécurité. Ouvert à de nouvelles opportunités."
   },
   "nav": {
     "switch_language": "Passer en anglais",
@@ -9,16 +9,17 @@
     "status": "disponible"
   },
   "hero": {
-    "role": "Ingénieur logiciel · Sécurité applicative",
+    "role": "Ingénieur logiciel senior · orienté sécurité",
     "handle": "n4yk0",
-    "tagline": "Je conçois des produits web & mobile — et je les teste en intrusion avant que quelqu'un d'autre ne s'en charge.",
+    "tagline": "Je conçois des produits web & mobile avec la sécurité intégrée — pas ajoutée après coup.",
+    "years": "8+ ans",
     "prompt_user": "visiteur",
     "prompt_host": "n4yk0",
     "whoami_cmd": "whoami",
     "whoami": [
       "Ingénieur logiciel, je développe web & mobile depuis 2017 — surtout pour la santé.",
       "Au quotidien : React, Next.js & TypeScript ; Python / Django côté back.",
-      "Certifié RNCP en cybersécurité — je développe avec OWASP en tête et je m'entraîne sur Hack The Box.",
+      "Certifié RNCP en cybersécurité — je développe avec OWASP en tête et je traite la sécurité comme partie intégrante du produit, pas comme une option.",
       "Clarté des échanges, code maintenable, un travail sur lequel une équipe peut s'appuyer."
     ],
     "status": "disponible",
@@ -87,7 +88,7 @@
       },
       {
         "label": "Sécurité",
-        "items": ["OWASP", "Test d'intrusion", "Hack The Box"]
+        "items": ["OWASP", "Code sécurisé", "Test d'intrusion"]
       },
       {
         "label": "Workflow assisté par IA",
@@ -97,7 +98,7 @@
   },
   "contact": {
     "title": "Me contacter",
-    "subtitle": "Ouvert à de nouvelles opportunités en ingénierie et sécurité applicative. L'e-mail est le plus direct — je réponds à chaque message.",
+    "subtitle": "Ouvert à de nouvelles opportunités en ingénierie où la sécurité compte. L'e-mail est le plus direct — je réponds à chaque message.",
     "email_note": "Préférence",
     "github_note": "Code & projets perso"
   },
