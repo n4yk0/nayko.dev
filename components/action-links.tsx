@@ -17,16 +17,13 @@ export const ActionLinks = ({ dict, className }: { dict: Dictionary; className?:
             size="sm"
             variant="ghost"
             className={cn(
-              "gap-2 rounded-full border transition-colors",
+              "gap-2 rounded-full border font-mono transition-colors",
               primary
                 ? "border-primary bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:text-primary-foreground"
                 : "border-border/60 text-muted-foreground hover:text-foreground",
             )}
           >
-            <Link
-              href={href}
-              {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-            >
+            <Link href={href} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
               {icon}
               <span>{dict.actions[key]}</span>
             </Link>

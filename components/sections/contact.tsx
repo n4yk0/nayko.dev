@@ -5,6 +5,11 @@ import { cn } from "@/lib/utils"
 import type { Dictionary } from "@/lib/dictionaries"
 
 export const Contact = ({ dict }: { dict: Dictionary }) => {
+  const notes: Record<"email" | "github", string> = {
+    email: dict.contact.email_note,
+    github: dict.contact.github_note,
+  }
+
   return (
     <section
       aria-labelledby="contact-heading"
@@ -12,7 +17,7 @@ export const Contact = ({ dict }: { dict: Dictionary }) => {
     >
       <div className="flex flex-col gap-2">
         <h2 id="contact-heading" className="text-xl font-semibold text-foreground">
-          {dict.contact.title}
+          <span className="font-mono text-primary">#</span> {dict.contact.title}
         </h2>
         <p className="max-w-lg text-sm leading-relaxed text-muted-foreground">{dict.contact.subtitle}</p>
       </div>
@@ -42,7 +47,10 @@ export const Contact = ({ dict }: { dict: Dictionary }) => {
               </span>
               <span className="flex min-w-0 flex-col">
                 <span className="text-sm font-medium text-foreground">{dict.actions[key]}</span>
-                <span className="truncate text-xs text-muted-foreground">{value}</span>
+                <span className="truncate font-mono text-xs text-muted-foreground">{value}</span>
+                <span className="mt-0.5 text-[11px] uppercase tracking-wider text-muted-foreground/60">
+                  {notes[key]}
+                </span>
               </span>
               <ArrowUpRight className="ml-auto h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>

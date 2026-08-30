@@ -1,59 +1,73 @@
 {
   "meta": {
-    "title": "n4yk0 — Software Engineer",
-    "description": "Software engineer based in France. Next.js, Nest.js, TypeScript and Python. Available for new opportunities."
+    "title": "n4yk0 — Software Engineer & Application Security",
+    "description": "Software engineer and appsec practitioner. Web & mobile with React, Next.js, TypeScript and Python; OWASP-minded and RNCP-certified in cybersecurity. Open to new opportunities."
   },
   "nav": {
     "switch_language": "Switch to French",
-    "toggle_theme": "Toggle theme"
+    "toggle_theme": "Toggle theme",
+    "status": "available"
   },
   "hero": {
-    "role": "Software Engineer",
-    "name": "n4yk0",
-    "location": "France",
-    "summary": "French–Swiss software engineer, building web and mobile applications since 2017, largely for the healthcare sector. Currently at Elipce Solutions, working mainly with React, Next.js and TypeScript. I hold a French RNCP certification in cybersecurity and apply OWASP practices to the work I ship. I care about clear communication, maintainable code, and work a team can build on.",
-    "languages_label": "Languages",
-    "french": "French — native",
-    "english": "English — bilingual",
-    "remote": "Open to remote work"
+    "role": "Software Engineer · Application Security",
+    "handle": "n4yk0",
+    "tagline": "I build web & mobile products — and pentest them before anyone else gets the chance.",
+    "prompt_user": "visitor",
+    "prompt_host": "n4yk0",
+    "whoami_cmd": "whoami",
+    "whoami": [
+      "Software engineer shipping web & mobile since 2017 — mostly for healthcare.",
+      "Day-to-day in React, Next.js & TypeScript; Python / Django on the back end.",
+      "RNCP-certified in cybersecurity — I ship with OWASP in mind and train on Hack The Box.",
+      "Clear communication, maintainable code, work a team can build on."
+    ],
+    "status": "available for work",
+    "french": "FR — native",
+    "english": "EN — bilingual",
+    "remote": "Remote · CET"
   },
   "actions": {
-    "email": "Email me",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "resume": "Download CV"
+    "email": "Email",
+    "github": "GitHub"
   },
   "experience": {
     "title": "Experience",
+    "note": "Employers kept private by choice — happy to share specifics in conversation.",
     "items": [
       {
-        "company": "Elipce Solutions",
+        "org": "Digital product studio",
         "role": "Software Engineer",
         "date": "2025 — Present",
-        "description": "Custom web and mobile applications for a range of clients, across the full project lifecycle. React, Ionic and TypeScript on the front end; Laravel and Django on the back."
+        "description": "Custom web & mobile apps for a range of clients, across the full project lifecycle — front end to back.",
+        "stack": ["React", "Ionic", "TypeScript", "Laravel", "Django"]
       },
       {
-        "company": "CBA Informatique Libérale",
+        "org": "Healthcare SaaS",
         "role": "Fullstack Developer",
         "date": "2023 — 2025",
-        "description": "Opaline Santé, a home-care booking platform serving over 80,000 users, built with Next.js and Symfony. Also maintained the shared UI component library alongside the design team."
+        "description": "Home-care booking platform serving 80,000+ users. Also maintained the shared UI component library alongside the design team.",
+        "stack": ["Next.js", "Symfony", "Design system"]
       },
       {
-        "company": "Arche MC2",
+        "org": "Mobile health",
         "role": "Android Developer",
         "date": "2018 — 2023",
-        "description": "Android applications for home nursing and care homes, designed to work offline in low-coverage environments through an embedded SQLite database and background synchronisation. Java and Kotlin, later migrated to Flutter."
+        "description": "Offline-first apps for home nursing and care homes — embedded SQLite and background sync to keep working in low-coverage areas.",
+        "stack": ["Java", "Kotlin", "Flutter", "SQLite"]
       },
       {
-        "company": "Logic'gram",
+        "org": "AR startup",
         "role": "Developer",
         "date": "2017",
-        "description": "Cross-platform augmented-reality application in Unity, displaying geolocated points of interest in real time, with a native Swift layer for iPad."
+        "description": "Cross-platform augmented-reality app showing geolocated points of interest in real time, with a native iPad layer.",
+        "stack": ["Unity", "C#", "Swift"]
       },
       {
-        "company": "Master's in Software Engineering",
-        "role": "University of Avignon (CERI)",
-        "date": "2015 — 2017"
+        "org": "M.Sc. Software Engineering",
+        "role": "Software Engineering · France",
+        "date": "2015 — 2017",
+        "description": "",
+        "stack": []
       }
     ]
   },
@@ -62,53 +76,34 @@
     "groups": [
       {
         "label": "Front-end",
-        "items": [
-          "Next.js",
-          "React",
-          "TypeScript"
-        ]
+        "items": ["Next.js", "React", "TypeScript"]
       },
       {
         "label": "Mobile",
-        "items": [
-          "React Native",
-          "Android"
-        ]
+        "items": ["React Native", "Android"]
       },
       {
         "label": "Back-end",
-        "items": [
-          "Laravel",
-          "Django",
-          "Python"
-        ]
-      },
-      {
-        "label": "AI-assisted workflow",
-        "items": [
-          "Claude Code",
-          "Gemini CLI"
-        ]
+        "items": ["Laravel", "Django", "Python"]
       },
       {
         "label": "Security",
-        "items": [
-          "OWASP",
-          "Penetration testing",
-          "Hack The Box"
-        ]
+        "items": ["OWASP", "Penetration testing", "Hack The Box"]
+      },
+      {
+        "label": "AI-assisted workflow",
+        "items": ["Claude Code", "Gemini CLI"]
       }
     ]
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "Open to new opportunities. The quickest way to reach me is by email — I reply to every message.",
-    "email_note": "Preferred",
-    "linkedin_note": "Professional profile",
-    "github_note": "Code and side projects",
-    "resume_note": "PDF"
+    "subtitle": "Open to new opportunities in engineering and application security. Email is the fastest way to reach me — I reply to every message.",
+    "email_note": "Preferred · PGP on request",
+    "github_note": "Code & side projects"
   },
   "footer": {
+    "tagline": "Built quiet — no trackers, no analytics.",
     "rights": "All rights reserved."
   }
 }

@@ -1,59 +1,73 @@
 {
   "meta": {
-    "title": "n4yk0 — Ingénieur logiciel",
-    "description": "Ingénieur logiciel basé en France. Next.js, Nest.js, TypeScript et Python. Disponible pour de nouvelles opportunités."
+    "title": "n4yk0 — Ingénieur logiciel & sécurité applicative",
+    "description": "Ingénieur logiciel et sécurité applicative. Web & mobile avec React, Next.js, TypeScript et Python ; approche OWASP, certifié RNCP en cybersécurité. Ouvert à de nouvelles opportunités."
   },
   "nav": {
     "switch_language": "Passer en anglais",
-    "toggle_theme": "Changer de thème"
+    "toggle_theme": "Changer de thème",
+    "status": "disponible"
   },
   "hero": {
-    "role": "Ingénieur logiciel",
-    "name": "n4yk0",
-    "location": "France",
-    "summary": "Ingénieur logiciel franco-suisse, je développe des applications web et mobiles depuis 2017, en grande partie pour le secteur de la santé. Actuellement chez Elipce Solutions, principalement sur React, Next.js et TypeScript. Titulaire d'une certification RNCP en cybersécurité, j'intègre les standards OWASP dans mes développements. J'attache de l'importance à la clarté des échanges, à un code maintenable et à un travail sur lequel une équipe peut s'appuyer.",
-    "languages_label": "Langues",
-    "french": "Français — langue maternelle",
-    "english": "Anglais — bilingue",
-    "remote": "Ouvert au télétravail"
+    "role": "Ingénieur logiciel · Sécurité applicative",
+    "handle": "n4yk0",
+    "tagline": "Je conçois des produits web & mobile — et je les teste en intrusion avant que quelqu'un d'autre ne s'en charge.",
+    "prompt_user": "visiteur",
+    "prompt_host": "n4yk0",
+    "whoami_cmd": "whoami",
+    "whoami": [
+      "Ingénieur logiciel, je développe web & mobile depuis 2017 — surtout pour la santé.",
+      "Au quotidien : React, Next.js & TypeScript ; Python / Django côté back.",
+      "Certifié RNCP en cybersécurité — je développe avec OWASP en tête et je m'entraîne sur Hack The Box.",
+      "Clarté des échanges, code maintenable, un travail sur lequel une équipe peut s'appuyer."
+    ],
+    "status": "disponible",
+    "french": "FR — natif",
+    "english": "EN — bilingue",
+    "remote": "Télétravail · CET"
   },
   "actions": {
-    "email": "M'écrire",
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "resume": "Télécharger le CV"
+    "email": "E-mail",
+    "github": "GitHub"
   },
   "experience": {
     "title": "Expérience",
+    "note": "Employeurs gardés privés par choix — je partage les détails avec plaisir de vive voix.",
     "items": [
       {
-        "company": "Elipce Solutions",
+        "org": "Studio de produits numériques",
         "role": "Ingénieur logiciel",
         "date": "2025 — Aujourd'hui",
-        "description": "Applications web et mobiles sur mesure pour différents clients, sur l'ensemble du cycle de vie projet. React, Ionic et TypeScript côté front ; Laravel et Django côté back."
+        "description": "Applications web & mobile sur mesure pour différents clients, sur tout le cycle de vie projet — du front au back.",
+        "stack": ["React", "Ionic", "TypeScript", "Laravel", "Django"]
       },
       {
-        "company": "CBA Informatique Libérale",
+        "org": "SaaS santé",
         "role": "Développeur fullstack",
         "date": "2023 — 2025",
-        "description": "Opaline Santé, plateforme de prise de rendez-vous pour les soins à domicile utilisée par plus de 80 000 utilisateurs, développée avec Next.js et Symfony. Maintenance et évolution de la librairie de composants UI en lien avec le design."
+        "description": "Plateforme de prise de rendez-vous pour les soins à domicile, utilisée par plus de 80 000 personnes. Maintenance de la librairie de composants UI avec l'équipe design.",
+        "stack": ["Next.js", "Symfony", "Design system"]
       },
       {
-        "company": "Arche MC2",
+        "org": "Santé mobile",
         "role": "Développeur Android",
         "date": "2018 — 2023",
-        "description": "Applications Android pour les soins infirmiers à domicile et les EHPAD, conçues pour fonctionner hors ligne en zone à faible couverture réseau grâce à une base SQLite embarquée et un système de synchronisation. Java et Kotlin, puis migration vers Flutter."
+        "description": "Applications hors-ligne pour les soins infirmiers à domicile et les EHPAD — base SQLite embarquée et synchronisation en tâche de fond pour les zones à faible couverture.",
+        "stack": ["Java", "Kotlin", "Flutter", "SQLite"]
       },
       {
-        "company": "Logic'gram",
+        "org": "Startup réalité augmentée",
         "role": "Développeur",
         "date": "2017",
-        "description": "Application mobile cross-platform en réalité augmentée sous Unity, affichant en temps réel des points d'intérêt géolocalisés, avec une couche native Swift pour iPad."
+        "description": "Application cross-platform en réalité augmentée affichant en temps réel des points d'intérêt géolocalisés, avec une couche native iPad.",
+        "stack": ["Unity", "C#", "Swift"]
       },
       {
-        "company": "Master Génie Logiciel",
-        "role": "Université d'Avignon (CERI)",
-        "date": "2015 — 2017"
+        "org": "Master Génie Logiciel",
+        "role": "Génie logiciel · France",
+        "date": "2015 — 2017",
+        "description": "",
+        "stack": []
       }
     ]
   },
@@ -62,53 +76,34 @@
     "groups": [
       {
         "label": "Front-end",
-        "items": [
-          "Next.js",
-          "React",
-          "TypeScript"
-        ]
+        "items": ["Next.js", "React", "TypeScript"]
       },
       {
         "label": "Mobile",
-        "items": [
-          "React Native",
-          "Android"
-        ]
+        "items": ["React Native", "Android"]
       },
       {
         "label": "Back-end",
-        "items": [
-          "Laravel",
-          "Django",
-          "Python"
-        ]
-      },
-      {
-        "label": "Workflow assisté par IA",
-        "items": [
-          "Claude Code",
-          "Gemini CLI"
-        ]
+        "items": ["Laravel", "Django", "Python"]
       },
       {
         "label": "Sécurité",
-        "items": [
-          "OWASP",
-          "Test de pénétration",
-          "Hack The Box"
-        ]
+        "items": ["OWASP", "Test d'intrusion", "Hack The Box"]
+      },
+      {
+        "label": "Workflow assisté par IA",
+        "items": ["Claude Code", "Gemini CLI"]
       }
     ]
   },
   "contact": {
     "title": "Me contacter",
-    "subtitle": "Ouvert à de nouvelles opportunités. Le plus simple est de m'écrire par e-mail — je réponds à chaque message.",
-    "email_note": "Préférence",
-    "linkedin_note": "Profil professionnel",
-    "github_note": "Code et projets personnels",
-    "resume_note": "PDF"
+    "subtitle": "Ouvert à de nouvelles opportunités en ingénierie et sécurité applicative. L'e-mail est le plus direct — je réponds à chaque message.",
+    "email_note": "Préférence · PGP sur demande",
+    "github_note": "Code & projets perso"
   },
   "footer": {
+    "tagline": "Sobre par choix — aucun tracker, aucune analytics.",
     "rights": "Tous droits réservés."
   }
 }

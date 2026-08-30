@@ -1,10 +1,12 @@
-import { Github, Linkedin, Mail, FileText } from "lucide-react"
+import { Github, Mail } from "lucide-react"
 import type { ReactNode } from "react"
 
-export const EMAIL = "n4yk0.n4yk0@gmail.com"
+export const HANDLE = "n4yk0"
+export const EMAIL = "n4yk0@proton.me"
+export const GITHUB_URL = "https://github.com/n4yk0"
 
 export type ContactLink = {
-  key: "email" | "linkedin" | "github" | "resume"
+  key: "email" | "github"
   href: string
   icon: ReactNode
   value: string
@@ -20,27 +22,10 @@ export const contactLinks: ContactLink[] = [
     external: false,
   },
   {
-    key: "linkedin",
-    href: "https://www.linkedin.com/in/n4yk0-617301129/",
-    icon: <Linkedin className="h-5 w-5" />,
-    value: "in/n4yk0",
-    external: true,
-  },
-  {
     key: "github",
-    href: "https://github.com/n4yk0",
+    href: GITHUB_URL,
     icon: <Github className="h-5 w-5" />,
-    value: "n4yk0",
-    external: true,
-  },
-  {
-    key: "resume",
-    href: "/cv_n4yk0.pdf",
-    icon: <FileText className="h-5 w-5" />,
-    value: "cv_n4yk0.pdf",
+    value: "github.com/n4yk0",
     external: true,
   },
 ]
-
-// Company/school logos, index-aligned with dict.experience.items
-export const experienceLogos = ["elipce.jpg", "cba.jpg", "arche-mc2.png", "lg.jpg", "ceri.jpg"]
