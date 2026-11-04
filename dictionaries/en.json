@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alexis Sanchis — Software engineer, healthcare & security",
-    "description": "Software engineer specialized in healthcare and home-care software, with security built in: a booking platform serving 80,000+ users, offline-first apps for home-care nurses, production products shipped with AI agents.",
+    "description": "Software engineer specialized in healthcare and home-care software, with security built in: team work on a booking platform serving 80,000+ users, offline-first apps for home-care nurses, production products shipped with AI agents.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -13,7 +13,7 @@
   },
   "hero": {
     "role": "Software engineer — healthcare & security.",
-    "bio": "Six of my nine years in software went into healthcare and home care: a booking platform serving 80,000+ users, offline-first apps for nurses working in low-coverage areas. Today I ship production products with AI agents — fast, verified, and secure by design.",
+    "bio": "Six of my nine years in software went into healthcare and home care: I worked in the team behind a booking platform serving 80,000+ users, and on offline-first apps for nurses working in low-coverage areas. Today I ship production products with AI agents — fast, verified, and secure by design.",
     "email": "Email",
     "github": "GitHub"
   },
@@ -21,7 +21,7 @@
     "title": "Selected work",
     "labels": {
       "problem": "Problem",
-      "built": "What I built",
+      "built": "What I did",
       "result": "Result"
     },
     "items": [
@@ -30,7 +30,7 @@
         "title": "Opaline Santé — home-care booking",
         "context": "CBA Informatique Libérale · 2023–2025",
         "problem": "Let patients book home care from independent healthcare professionals — nurses, physiotherapists and others.",
-        "built": "Fullstack development on Opaline Santé, CBA's booking platform, and on the shared UI component library, maintained with the design team.",
+        "built": "Fullstack developer in the team building Opaline Santé, CBA's booking platform. I also contributed to the shared UI component library, together with the design team.",
         "result": "The platform serves 80,000+ users."
       },
       {
@@ -54,10 +54,22 @@
       "id": "other-work",
       "title": "Also",
       "items": [
-        "A WordPress site rebuilt in Next.js in about an hour.",
-        "Command-line tools in Rust.",
-        "Three Kotlin Android apps, in closed testing on Google Play.",
-        "Linux server operations on DigitalOcean."
+        {
+          "id": "wordpress",
+          "text": "A WordPress site rebuilt in Next.js in under 45 minutes."
+        },
+        {
+          "id": "rust",
+          "text": "Command-line tools in Rust."
+        },
+        {
+          "id": "android",
+          "text": "Three Kotlin Android apps, in closed testing on Google Play."
+        },
+        {
+          "id": "linux",
+          "text": "Linux server operations on DigitalOcean."
+        }
       ]
     }
   },
@@ -73,19 +85,22 @@
         "skills": [
           "how",
           "why"
-        ]
+        ],
+        "id": "understand"
       },
       {
         "name": "Design",
         "text": "Types, signatures and module boundaries come before implementation, so the shape gets reviewed while it is still cheap to change.",
         "skills": [
           "architect"
-        ]
+        ],
+        "id": "design"
       },
       {
         "name": "Build",
         "text": "The requested scope and nothing more, with unit tests for normal cases, edge cases and errors. No unrequested features, no dead code.",
-        "skills": []
+        "skills": [],
+        "id": "build"
       },
       {
         "name": "Verify",
@@ -94,14 +109,16 @@
           "bug-fix",
           "perf-issue",
           "benchmark-checklist"
-        ]
+        ],
+        "id": "verify"
       },
       {
         "name": "Review",
         "text": "Before shipping: what else the change could break beyond its diff, checked by running code. The final call on what ships is mine.",
         "skills": [
           "blast-radius"
-        ]
+        ],
+        "id": "review"
       }
     ],
     "rules_title": "Rules every session loads",
@@ -111,7 +128,7 @@
       "Infrastructure commands get a dry run first, and a rollback plan is written before the change.",
       "Anything destructive or touching production waits for my explicit confirmation."
     ],
-    "proof": "In practice: [a subscription platform built in under 24 hours](#speech-therapy-platform), and [a WordPress site rebuilt in Next.js in about an hour](#other-work)."
+    "proof": "In practice: [a subscription platform built in under 24 hours](#speech-therapy-platform), and [a WordPress site rebuilt in Next.js in under 45 minutes](#other-work)."
   },
   "experience": {
     "title": "Experience",
@@ -131,7 +148,7 @@
         "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
         "date": "2023 — 2025",
-        "summary": "Software for independent healthcare professionals. Opaline Santé, a home-care booking platform serving 80,000+ users, and its shared UI component library.",
+        "summary": "Software for independent healthcare professionals. Fullstack developer in the Opaline Santé team — a home-care booking platform serving 80,000+ users — and contributor to its shared UI component library.",
         "tags": [
           "Next.js",
           "Symfony"
@@ -168,7 +185,50 @@
   },
   "stack": {
     "title": "Stack",
-    "line": "TypeScript, Next.js, React · Supabase (Postgres) · Stripe · Vercel · Kotlin/Android · Rust · Linux"
+    "groups": [
+      {
+        "id": "web",
+        "label": "Web",
+        "items": [
+          "TypeScript",
+          "Next.js",
+          "React"
+        ]
+      },
+      {
+        "id": "backend",
+        "label": "Back end & payments",
+        "items": [
+          "Supabase (Postgres)",
+          "Stripe"
+        ]
+      },
+      {
+        "id": "mobile",
+        "label": "Mobile",
+        "items": [
+          "Kotlin",
+          "Android"
+        ]
+      },
+      {
+        "id": "systems",
+        "label": "Systems & hosting",
+        "items": [
+          "Rust",
+          "Linux",
+          "Vercel"
+        ]
+      },
+      {
+        "id": "ai",
+        "label": "AI agents",
+        "items": [
+          "Claude Code",
+          "Gemini CLI"
+        ]
+      }
+    ]
   },
   "contact": {
     "title": "Have a project? Let's talk.",

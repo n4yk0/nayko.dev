@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alexis Sanchis — Ingénieur logiciel, santé et sécurité",
-    "description": "Ingénieur logiciel, je travaille surtout sur des logiciels de santé et de maintien à domicile, avec la sécurité en tête dès la conception. Une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, des applications hors ligne pour les soignants à domicile.",
+    "description": "Ingénieur logiciel, je travaille surtout sur des logiciels de santé et de maintien à domicile, avec la sécurité en tête dès la conception. Au sein d'une équipe, une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs ; des applications hors ligne pour les soignants à domicile.",
     "job_title": "Ingénieur logiciel",
     "og_locale": "fr_FR"
   },
@@ -13,7 +13,7 @@
   },
   "hero": {
     "role": "Ingénieur logiciel — santé et sécurité.",
-    "bio": "J'ai passé six de mes neuf années de développement dans la santé et le maintien à domicile. J'ai notamment travaillé sur une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des applications hors ligne pour des soignants qui travaillent là où le réseau passe mal. Aujourd'hui, je développe des logiciels avec des agents IA, en gardant la main sur la vérification et la sécurité.",
+    "bio": "J'ai passé six de mes neuf années de développement dans la santé et le maintien à domicile. J'ai notamment travaillé, au sein d'une équipe, sur une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des applications hors ligne pour des soignants qui travaillent là où le réseau passe mal. Aujourd'hui, je développe des logiciels avec des agents IA, en gardant la main sur la vérification et la sécurité.",
     "email": "E-mail",
     "github": "GitHub"
   },
@@ -30,7 +30,7 @@
         "title": "Opaline Santé — rendez-vous de soins à domicile",
         "context": "CBA Informatique Libérale · 2023–2025",
         "problem": "Permettre aux patients de réserver des soins à domicile auprès de professionnels de santé libéraux (infirmiers, kinésithérapeutes…).",
-        "built": "J'ai participé au développement fullstack d'Opaline Santé, la plateforme de prise de rendez-vous de CBA, et à la bibliothèque de composants UI partagée, en lien avec l'équipe design.",
+        "built": "Développeur fullstack dans l'équipe d'Opaline Santé, la plateforme de prise de rendez-vous de CBA. J'ai aussi contribué à la bibliothèque de composants UI partagée, avec l'équipe design.",
         "result": "La plateforme compte plus de 80 000 utilisateurs."
       },
       {
@@ -54,10 +54,22 @@
       "id": "other-work",
       "title": "Et aussi",
       "items": [
-        "La refonte d'un site WordPress en Next.js, en une heure environ.",
-        "Quelques outils en ligne de commande en Rust.",
-        "Trois applications Android en Kotlin, en test fermé sur Google Play.",
-        "De l'administration de serveurs Linux chez DigitalOcean."
+        {
+          "id": "wordpress",
+          "text": "Un site WordPress refait en Next.js en moins de 45 minutes."
+        },
+        {
+          "id": "rust",
+          "text": "Quelques outils en ligne de commande en Rust."
+        },
+        {
+          "id": "android",
+          "text": "Trois applications Android en Kotlin, en test fermé sur Google Play."
+        },
+        {
+          "id": "linux",
+          "text": "De l'administration de serveurs Linux chez DigitalOcean."
+        }
       ]
     }
   },
@@ -73,19 +85,22 @@
         "skills": [
           "how",
           "why"
-        ]
+        ],
+        "id": "understand"
       },
       {
         "name": "Concevoir",
         "text": "Les types, les signatures et le découpage en modules sont posés avant l'implémentation, pour pouvoir corriger la structure tant que c'est encore simple.",
         "skills": [
           "architect"
-        ]
+        ],
+        "id": "design"
       },
       {
         "name": "Construire",
         "text": "Uniquement ce qui a été demandé, avec des tests unitaires pour les cas courants, les cas limites et les erreurs. Pas de fonctionnalité en plus, pas de code mort.",
-        "skills": []
+        "skills": [],
+        "id": "build"
       },
       {
         "name": "Vérifier",
@@ -94,14 +109,16 @@
           "bug-fix",
           "perf-issue",
           "benchmark-checklist"
-        ]
+        ],
+        "id": "verify"
       },
       {
         "name": "Relire",
         "text": "Avant de livrer, on regarde ce que le changement pourrait casser au-delà de son diff, en exécutant du code. La décision de livrer reste la mienne.",
         "skills": [
           "blast-radius"
-        ]
+        ],
+        "id": "review"
       }
     ],
     "rules_title": "Les règles chargées à chaque session",
@@ -111,7 +128,7 @@
       "Les commandes d'infrastructure sont d'abord testées à blanc (dry-run), et le retour arrière est prévu avant le changement.",
       "Rien de destructif, ni rien qui touche la production, ne se fait sans ma confirmation."
     ],
-    "proof": "Quelques exemples : [une plateforme d'abonnement réalisée en moins de 24 heures](#speech-therapy-platform) et [un site WordPress refait en Next.js en une heure environ](#other-work)."
+    "proof": "Quelques exemples : [une plateforme d'abonnement réalisée en moins de 24 heures](#speech-therapy-platform) et [un site WordPress refait en Next.js en moins de 45 minutes](#other-work)."
   },
   "experience": {
     "title": "Parcours",
@@ -131,7 +148,7 @@
         "org": "CBA Informatique Libérale",
         "role": "Développeur fullstack",
         "date": "2023 — 2025",
-        "summary": "Logiciels pour les professionnels de santé libéraux : Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et sa bibliothèque de composants UI.",
+        "summary": "Logiciels pour les professionnels de santé libéraux. Développeur fullstack dans l'équipe d'Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et contributeur à sa bibliothèque de composants UI.",
         "tags": [
           "Next.js",
           "Symfony"
@@ -168,7 +185,50 @@
   },
   "stack": {
     "title": "Outils",
-    "line": "TypeScript, Next.js, React · Supabase (Postgres) · Stripe · Vercel · Kotlin/Android · Rust · Linux"
+    "groups": [
+      {
+        "id": "web",
+        "label": "Web",
+        "items": [
+          "TypeScript",
+          "Next.js",
+          "React"
+        ]
+      },
+      {
+        "id": "backend",
+        "label": "Back-end et paiement",
+        "items": [
+          "Supabase (Postgres)",
+          "Stripe"
+        ]
+      },
+      {
+        "id": "mobile",
+        "label": "Mobile",
+        "items": [
+          "Kotlin",
+          "Android"
+        ]
+      },
+      {
+        "id": "systems",
+        "label": "Systèmes et hébergement",
+        "items": [
+          "Rust",
+          "Linux",
+          "Vercel"
+        ]
+      },
+      {
+        "id": "ai",
+        "label": "Agents IA",
+        "items": [
+          "Claude Code",
+          "Gemini CLI"
+        ]
+      }
+    ]
   },
   "contact": {
     "title": "Un projet ? Parlons-en.",

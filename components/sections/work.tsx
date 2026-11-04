@@ -28,7 +28,7 @@ export const Work = ({ dict }: { dict: Dictionary }) => {
           <h3 className="font-medium">{other.title}</h3>
           <ul className="mt-3 list-disc space-y-1.5 pl-5 leading-relaxed marker:text-muted-foreground">
             {other.items.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item.id}>{item.text}</li>
             ))}
           </ul>
         </div>
