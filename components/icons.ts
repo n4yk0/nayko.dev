@@ -22,35 +22,32 @@ import {
   SquareTerminal,
   WifiOff,
 } from "lucide-react"
-import type { Tone } from "@/components/icon-chip"
-
-type ToneIcon = { icon: LucideIcon; tone: Tone }
 
 export const sectionIcons = {
-  work: { icon: Briefcase, tone: "blue" },
-  howIWork: { icon: Bot, tone: "violet" },
-  experience: { icon: History, tone: "emerald" },
-  stack: { icon: Layers, tone: "amber" },
-  contact: { icon: Mail, tone: "rose" },
-} satisfies Record<string, ToneIcon>
+  work: Briefcase,
+  howIWork: Bot,
+  experience: History,
+  stack: Layers,
+  contact: Mail,
+} satisfies Record<string, LucideIcon>
 
-export const focusIcons: Record<string, ToneIcon> = {
-  health: { icon: HeartPulse, tone: "rose" },
-  security: { icon: ShieldCheck, tone: "emerald" },
-  ai: { icon: Bot, tone: "violet" },
+export const focusIcons: Record<string, LucideIcon> = {
+  health: HeartPulse,
+  security: ShieldCheck,
+  ai: Bot,
 }
 
-export const workIcons: Record<string, ToneIcon> = {
-  "opaline-sante": { icon: CalendarCheck, tone: "blue" },
-  "offline-first-care": { icon: WifiOff, tone: "emerald" },
-  "speech-therapy-platform": { icon: CreditCard, tone: "violet" },
+export const workIcons: Record<string, LucideIcon> = {
+  "opaline-sante": CalendarCheck,
+  "offline-first-care": WifiOff,
+  "speech-therapy-platform": CreditCard,
 }
 
-export const otherWorkIcons: Record<string, ToneIcon> = {
-  wordpress: { icon: Globe, tone: "blue" },
-  rust: { icon: SquareTerminal, tone: "amber" },
-  android: { icon: Smartphone, tone: "emerald" },
-  linux: { icon: Server, tone: "rose" },
+export const otherWorkIcons: Record<string, LucideIcon> = {
+  wordpress: Globe,
+  rust: SquareTerminal,
+  android: Smartphone,
+  linux: Server,
 }
 
 export const stepIcons: Record<string, LucideIcon> = {
@@ -61,10 +58,10 @@ export const stepIcons: Record<string, LucideIcon> = {
   review: GitPullRequest,
 }
 
-export const stackIcons: Record<string, ToneIcon> = {
-  web: { icon: Code, tone: "blue" },
-  backend: { icon: Database, tone: "emerald" },
-  mobile: { icon: Smartphone, tone: "amber" },
-  systems: { icon: Server, tone: "rose" },
-  ai: { icon: Bot, tone: "violet" },
+export const stackIcons: Record<string, LucideIcon> = {
+  web: Code,
+  backend: Database,
+  mobile: Smartphone,
+  systems: Server,
+  ai: Bot,
 }

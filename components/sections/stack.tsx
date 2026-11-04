@@ -1,26 +1,22 @@
-import { IconChip } from "@/components/icon-chip"
 import { sectionIcons, stackIcons } from "@/components/icons"
 import { Section } from "@/components/section"
 import type { Dictionary } from "@/lib/dictionaries"
 
 export const Stack = ({ dict }: { dict: Dictionary }) => (
-  <Section id="stack" title={dict.stack.title} {...sectionIcons.stack}>
-    <ul className="grid gap-3 sm:grid-cols-2">
-      {dict.stack.groups.map((group) => (
-        <li key={group.id} className="rounded-xl border bg-card p-4 sm:last:odd:col-span-2">
-          <div className="flex items-center gap-2.5">
-            <IconChip {...stackIcons[group.id]} small />
-            <h3 className="text-sm font-medium">{group.label}</h3>
+  <Section id="stack" title={dict.stack.title} icon={sectionIcons.stack}>
+    <dl className="space-y-3 leading-relaxed">
+      {dict.stack.groups.map((group) => {
+        const Icon = stackIcons[group.id]
+        return (
+          <div key={group.id} className="sm:grid sm:grid-cols-[13rem_1fr] sm:gap-x-6">
+            <dt className="flex items-center gap-2 text-sm text-muted-foreground sm:pt-0.5">
+              <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
+              {group.label}
+            </dt>
+            <dd>{group.items.join(", ")}</dd>
           </div>
-          <p className="mt-3 flex flex-wrap gap-1.5">
-            {group.items.map((item) => (
-              <span key={item} className="rounded-md bg-muted px-2 py-0.5 text-sm">
-                {item}
-              </span>
-            ))}
-          </p>
-        </li>
-      ))}
-    </ul>
+        )
+      })}
+    </dl>
   </Section>
 )
