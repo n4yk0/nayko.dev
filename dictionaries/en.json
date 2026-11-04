@@ -14,6 +14,20 @@
   "hero": {
     "role": "Software engineer — healthcare & security.",
     "bio": "Six of my nine years in software went into healthcare and home care: I worked in the team behind a booking platform serving 80,000+ users, and on offline-first apps for nurses working in low-coverage areas. Today I ship production products with AI agents — fast, verified, and secure by design.",
+    "focus": [
+      {
+        "id": "health",
+        "label": "Healthcare & home care"
+      },
+      {
+        "id": "security",
+        "label": "Security by design"
+      },
+      {
+        "id": "ai",
+        "label": "AI-native delivery"
+      }
+    ],
     "email": "Email",
     "github": "GitHub"
   },
@@ -232,8 +246,7 @@
   },
   "contact": {
     "title": "Have a project? Let's talk.",
-    "text": "Email is the fastest way to reach me — I reply to every message.",
-    "github": "Code and side projects on GitHub"
+    "text": "Email is the fastest way to reach me — I reply to every message."
   },
   "footer": {
     "legal": "Legal notice"

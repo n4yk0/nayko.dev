@@ -14,6 +14,20 @@
   "hero": {
     "role": "Ingénieur logiciel — santé et sécurité.",
     "bio": "J'ai passé six de mes neuf années de développement dans la santé et le maintien à domicile. J'ai notamment travaillé, au sein d'une équipe, sur une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des applications hors ligne pour des soignants qui travaillent là où le réseau passe mal. Aujourd'hui, je développe des logiciels avec des agents IA, en gardant la main sur la vérification et la sécurité.",
+    "focus": [
+      {
+        "id": "health",
+        "label": "Santé et maintien à domicile"
+      },
+      {
+        "id": "security",
+        "label": "Sécurité dès la conception"
+      },
+      {
+        "id": "ai",
+        "label": "Développement avec agents IA"
+      }
+    ],
     "email": "E-mail",
     "github": "GitHub"
   },
@@ -232,8 +246,7 @@
   },
   "contact": {
     "title": "Un projet ? Parlons-en.",
-    "text": "N'hésitez pas à m'écrire par e-mail, je réponds à tous les messages.",
-    "github": "Mon code et mes projets perso sur GitHub"
+    "text": "N'hésitez pas à m'écrire par e-mail, je réponds à tous les messages."
   },
   "footer": {
     "legal": "Mentions légales"
