@@ -26,8 +26,12 @@ export const Work = ({ dict }: { dict: Dictionary }) => {
                 <dd className="mb-2 sm:mb-0">{item.problem}</dd>
                 <dt className="text-sm text-muted-foreground sm:pt-0.5">{labels.built}</dt>
                 <dd className="mb-2 sm:mb-0">{item.built}</dd>
-                <dt className="text-sm text-muted-foreground sm:pt-0.5">{labels.result}</dt>
-                <dd>{item.result}</dd>
+                {item.result && (
+                  <>
+                    <dt className="text-sm text-muted-foreground sm:pt-0.5">{labels.result}</dt>
+                    <dd>{item.result}</dd>
+                  </>
+                )}
               </dl>
             </article>
           )

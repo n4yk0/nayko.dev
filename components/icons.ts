@@ -8,6 +8,7 @@ import {
   Database,
   GitPullRequest,
   Globe,
+  Grid2x2,
   Hammer,
   HeartPulse,
   History,
@@ -41,6 +42,7 @@ export const workIcons: Record<string, LucideIcon> = {
   "opaline-sante": CalendarCheck,
   "offline-first-care": WifiOff,
   "speech-therapy-platform": CreditCard,
+  "joinery-app": Grid2x2,
 }
 
 export const otherWorkIcons: Record<string, LucideIcon> = {

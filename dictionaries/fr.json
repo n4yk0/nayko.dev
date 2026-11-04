@@ -32,7 +32,7 @@
     "github": "GitHub"
   },
   "work": {
-    "title": "Quelques projets",
+    "title": "Projets",
     "labels": {
       "problem": "Le besoin",
       "built": "Ce que j'ai fait",
@@ -42,26 +42,33 @@
       {
         "id": "opaline-sante",
         "title": "Opaline Santé — rendez-vous de soins à domicile",
-        "context": "CBA Informatique Libérale · 2023–2025",
+        "context": "CBA Informatique Libérale · 2023–2025 · Projet en équipe",
         "problem": "Permettre aux patients de réserver des soins à domicile auprès de professionnels de santé libéraux (infirmiers, kinésithérapeutes…).",
-        "built": "Développeur fullstack dans l'équipe d'Opaline Santé, la plateforme de prise de rendez-vous de CBA. J'ai aussi contribué à la bibliothèque de composants UI partagée, avec l'équipe design.",
+        "built": "Développeur fullstack dans l'équipe d'Opaline Santé, la plateforme de prise de rendez-vous de CBA. J'ai aussi contribué à la bibliothèque de composants UI partagée, avec l'équipe design. Next.js, Symfony et Laravel.",
         "result": "La plateforme compte plus de 80 000 utilisateurs."
       },
       {
         "id": "offline-first-care",
         "title": "Applications hors ligne pour le maintien à domicile",
-        "context": "Arche MC2 · 2018–2023",
+        "context": "Arche MC2 · 2018–2023 · Projet en équipe",
         "problem": "Les services de soins et d'aide à domicile (SSIAD, SAD), les EHPAD et les services de portage de repas travaillent souvent avec un réseau mobile faible, voire inexistant.",
-        "built": "Des applications Android conçues pour fonctionner hors ligne : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan. D'abord en Java et Kotlin, puis en Flutter.",
+        "built": "Au sein de l'équipe, des applications Android conçues pour fonctionner hors ligne : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan. D'abord en Java et Kotlin, puis en Flutter.",
         "result": "Les équipes peuvent continuer à travailler sans connexion, et leurs données se synchronisent quand le réseau revient."
       },
       {
         "id": "speech-therapy-platform",
         "title": "Une plateforme d'abonnement pour une orthophoniste",
-        "context": "Freelance",
+        "context": "Freelance · Projet en solo",
         "problem": "Une orthophoniste souhaitait publier ses exercices en ligne et les proposer par abonnement mensuel, à ses patients comme à toute personne qui veut progresser.",
         "built": "La plateforme complète (Next.js, Supabase, abonnements Stripe, hébergement Vercel), réalisée en moins de 24 heures de travail cumulé avec des agents de code IA.",
         "result": "Le lancement est prévu prochainement."
+      },
+      {
+        "id": "joinery-app",
+        "title": "Une application complète de menuiserie",
+        "context": "Elipce Solutions · Projet en équipe",
+        "problem": "Concevoir une application complète de menuiserie, avec le calcul des caractéristiques globales de chaque menuiserie, comme le Uw (transmission thermique) ou la TL (transmission lumineuse).",
+        "built": "Au sein de l'équipe, un moteur de menuiserie côté React, et un moteur côté Django qui calcule les caractéristiques globales de chaque menuiserie (Uw, TL…). React et Django."
       }
     ],
     "other": {
@@ -155,7 +162,8 @@
         "tags": [
           "React",
           "Ionic",
-          "Laravel"
+          "Laravel",
+          "Django"
         ]
       },
       {
@@ -165,7 +173,8 @@
         "summary": "Logiciels pour les professionnels de santé libéraux. Développeur fullstack dans l'équipe d'Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et contributeur à sa bibliothèque de composants UI.",
         "tags": [
           "Next.js",
-          "Symfony"
+          "Symfony",
+          "Laravel"
         ]
       },
       {
@@ -213,6 +222,8 @@
         "id": "backend",
         "label": "Back-end et paiement",
         "items": [
+          "Django",
+          "Laravel",
           "Supabase (Postgres)",
           "Stripe"
         ]
@@ -222,7 +233,9 @@
         "label": "Mobile",
         "items": [
           "Kotlin",
-          "Android"
+          "Android",
+          "Ionic/Capacitor",
+          "React Native"
         ]
       },
       {

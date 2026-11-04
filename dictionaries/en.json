@@ -42,26 +42,33 @@
       {
         "id": "opaline-sante",
         "title": "Opaline Santé — home-care booking",
-        "context": "CBA Informatique Libérale · 2023–2025",
+        "context": "CBA Informatique Libérale · 2023–2025 · Team project",
         "problem": "Let patients book home care from independent healthcare professionals — nurses, physiotherapists and others.",
-        "built": "Fullstack developer in the team building Opaline Santé, CBA's booking platform. I also contributed to the shared UI component library, together with the design team.",
+        "built": "Fullstack developer in the team building Opaline Santé, CBA's booking platform. I also contributed to the shared UI component library, together with the design team. Next.js, Symfony and Laravel.",
         "result": "The platform serves 80,000+ users."
       },
       {
         "id": "offline-first-care",
         "title": "Offline-first apps for home care",
-        "context": "Arche MC2 · 2018–2023",
+        "context": "Arche MC2 · 2018–2023 · Team project",
         "problem": "Home-care nursing services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
-        "built": "Offline-first Android apps: an embedded SQLite database on the device, synced with the server in the background. Java and Kotlin, later Flutter.",
+        "built": "As part of the team, offline-first Android apps: an embedded SQLite database on the device, synced with the server in the background. Java and Kotlin, later Flutter.",
         "result": "Care teams keep working without a connection; their data syncs once the network is back."
       },
       {
         "id": "speech-therapy-platform",
         "title": "Subscription platform for a speech therapist",
-        "context": "Freelance",
+        "context": "Freelance · Solo project",
         "problem": "A speech therapist wanted to publish her exercises online and offer them by monthly subscription, to her patients and to anyone who wants to improve.",
         "built": "The whole platform — Next.js, Supabase (Postgres), Stripe subscriptions, hosted on Vercel — in under 24 hours of total work, directing AI coding agents.",
         "result": "Launching soon."
+      },
+      {
+        "id": "joinery-app",
+        "title": "A complete joinery application",
+        "context": "Elipce Solutions · Team project",
+        "problem": "Build a complete joinery application, including the computation of each product's overall performance figures such as Uw (thermal transmittance) and TL (light transmission).",
+        "built": "As part of the team, a joinery engine on the React front end, and an engine on the Django back end that computes the overall figures of each joinery product (Uw, TL…). React and Django."
       }
     ],
     "other": {
@@ -155,7 +162,8 @@
         "tags": [
           "React",
           "Ionic",
-          "Laravel"
+          "Laravel",
+          "Django"
         ]
       },
       {
@@ -165,7 +173,8 @@
         "summary": "Software for independent healthcare professionals. Fullstack developer in the Opaline Santé team — a home-care booking platform serving 80,000+ users — and contributor to its shared UI component library.",
         "tags": [
           "Next.js",
-          "Symfony"
+          "Symfony",
+          "Laravel"
         ]
       },
       {
@@ -213,6 +222,8 @@
         "id": "backend",
         "label": "Back end & payments",
         "items": [
+          "Django",
+          "Laravel",
           "Supabase (Postgres)",
           "Stripe"
         ]
@@ -222,7 +233,9 @@
         "label": "Mobile",
         "items": [
           "Kotlin",
-          "Android"
+          "Android",
+          "Ionic/Capacitor",
+          "React Native"
         ]
       },
       {
