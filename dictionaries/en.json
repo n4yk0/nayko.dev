@@ -1,7 +1,9 @@
 {
   "meta": {
     "title": "Alexis Sanchis — Software engineer, healthcare & security",
-    "description": "Software engineer specialized in healthcare and home-care software, with security built in: a booking platform serving 80,000+ users, offline-first apps for home-care nurses, production products shipped with AI agents."
+    "description": "Software engineer specialized in healthcare and home-care software, with security built in: a booking platform serving 80,000+ users, offline-first apps for home-care nurses, production products shipped with AI agents.",
+    "job_title": "Software engineer",
+    "og_locale": "en_US"
   },
   "nav": {
     "skip": "Skip to content",
@@ -68,12 +70,17 @@
       {
         "name": "Understand",
         "text": "Before touching code, the agent explains how the subsystem works and why it was built that way, from the code and its history.",
-        "skills": ["how", "why"]
+        "skills": [
+          "how",
+          "why"
+        ]
       },
       {
         "name": "Design",
         "text": "Types, signatures and module boundaries come before implementation, so the shape gets reviewed while it is still cheap to change.",
-        "skills": ["architect"]
+        "skills": [
+          "architect"
+        ]
       },
       {
         "name": "Build",
@@ -83,12 +90,18 @@
       {
         "name": "Verify",
         "text": "Proof is the feature running and the real value, not “it compiles”. A bug is reproduced and traced to its root cause before it is fixed; a performance gain is measured before and after.",
-        "skills": ["bug-fix", "perf-issue", "benchmark-checklist"]
+        "skills": [
+          "bug-fix",
+          "perf-issue",
+          "benchmark-checklist"
+        ]
       },
       {
         "name": "Review",
         "text": "Before shipping: what else the change could break beyond its diff, checked by running code. The final call on what ships is mine.",
-        "skills": ["blast-radius"]
+        "skills": [
+          "blast-radius"
+        ]
       }
     ],
     "rules_title": "Rules every session loads",
@@ -108,28 +121,43 @@
         "role": "Software Engineer",
         "date": "2025 — Present",
         "summary": "Custom web & mobile apps for a range of clients, across the full project lifecycle — front end to back.",
-        "tags": ["React", "Ionic", "Laravel"]
+        "tags": [
+          "React",
+          "Ionic",
+          "Laravel"
+        ]
       },
       {
         "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
         "date": "2023 — 2025",
         "summary": "Software for independent healthcare professionals. Opaline Santé, a home-care booking platform serving 80,000+ users, and its shared UI component library.",
-        "tags": ["Next.js", "Symfony"]
+        "tags": [
+          "Next.js",
+          "Symfony"
+        ]
       },
       {
         "org": "Arche MC2",
         "role": "Android Developer",
         "date": "2018 — 2023",
         "summary": "Offline-first Android apps for home-care nursing services, nursing homes and meal delivery.",
-        "tags": ["Kotlin", "Java", "Flutter"]
+        "tags": [
+          "Kotlin",
+          "Java",
+          "Flutter"
+        ]
       },
       {
         "org": "Logic'gram",
         "role": "Developer",
         "date": "2017",
         "summary": "Cross-platform augmented-reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
-        "tags": ["Unity", "C#", "Swift"]
+        "tags": [
+          "Unity",
+          "C#",
+          "Swift"
+        ]
       }
     ],
     "education_title": "Education",

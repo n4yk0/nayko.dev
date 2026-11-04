@@ -1,7 +1,9 @@
 {
   "meta": {
     "title": "Alexis Sanchis — Ingénieur logiciel, santé et sécurité",
-    "description": "Ingénieur logiciel, je travaille surtout sur des logiciels de santé et de maintien à domicile, avec la sécurité en tête dès la conception. Une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, des applications hors ligne pour les soignants à domicile."
+    "description": "Ingénieur logiciel, je travaille surtout sur des logiciels de santé et de maintien à domicile, avec la sécurité en tête dès la conception. Une plateforme de rendez-vous qui compte plus de 80 000 utilisateurs, des applications hors ligne pour les soignants à domicile.",
+    "job_title": "Ingénieur logiciel",
+    "og_locale": "fr_FR"
   },
   "nav": {
     "skip": "Aller au contenu",
@@ -68,12 +70,17 @@
       {
         "name": "Comprendre",
         "text": "Avant de modifier le code, l'agent explique comment fonctionne la partie concernée et pourquoi elle a été construite ainsi, à partir du code et de son historique.",
-        "skills": ["how", "why"]
+        "skills": [
+          "how",
+          "why"
+        ]
       },
       {
         "name": "Concevoir",
         "text": "Les types, les signatures et le découpage en modules sont posés avant l'implémentation, pour pouvoir corriger la structure tant que c'est encore simple.",
-        "skills": ["architect"]
+        "skills": [
+          "architect"
+        ]
       },
       {
         "name": "Construire",
@@ -83,12 +90,18 @@
       {
         "name": "Vérifier",
         "text": "Ce qui compte, c'est de voir la fonctionnalité tourner et d'observer la vraie valeur, pas seulement que « ça compile ». Un bug est d'abord reproduit et remonté jusqu'à sa cause ; un gain de performance est mesuré avant et après.",
-        "skills": ["bug-fix", "perf-issue", "benchmark-checklist"]
+        "skills": [
+          "bug-fix",
+          "perf-issue",
+          "benchmark-checklist"
+        ]
       },
       {
         "name": "Relire",
         "text": "Avant de livrer, on regarde ce que le changement pourrait casser au-delà de son diff, en exécutant du code. La décision de livrer reste la mienne.",
-        "skills": ["blast-radius"]
+        "skills": [
+          "blast-radius"
+        ]
       }
     ],
     "rules_title": "Les règles chargées à chaque session",
@@ -108,28 +121,43 @@
         "role": "Ingénieur logiciel",
         "date": "2025 — aujourd'hui",
         "summary": "Applications web et mobiles sur mesure pour différents clients, sur l'ensemble du projet, du front au back.",
-        "tags": ["React", "Ionic", "Laravel"]
+        "tags": [
+          "React",
+          "Ionic",
+          "Laravel"
+        ]
       },
       {
         "org": "CBA Informatique Libérale",
         "role": "Développeur fullstack",
         "date": "2023 — 2025",
         "summary": "Logiciels pour les professionnels de santé libéraux : Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et sa bibliothèque de composants UI.",
-        "tags": ["Next.js", "Symfony"]
+        "tags": [
+          "Next.js",
+          "Symfony"
+        ]
       },
       {
         "org": "Arche MC2",
         "role": "Développeur Android",
         "date": "2018 — 2023",
         "summary": "Applications Android hors ligne pour les services de soins à domicile, les EHPAD et le portage de repas.",
-        "tags": ["Kotlin", "Java", "Flutter"]
+        "tags": [
+          "Kotlin",
+          "Java",
+          "Flutter"
+        ]
       },
       {
         "org": "Logic'gram",
         "role": "Développeur",
         "date": "2017",
         "summary": "Application de réalité augmentée multiplateforme sous Unity, qui affiche en temps réel des points d'intérêt géolocalisés, avec une couche native en Swift pour iPad.",
-        "tags": ["Unity", "C#", "Swift"]
+        "tags": [
+          "Unity",
+          "C#",
+          "Swift"
+        ]
       }
     ],
     "education_title": "Formation",
