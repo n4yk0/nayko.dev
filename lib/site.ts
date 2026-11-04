@@ -1,4 +1,6 @@
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://nayko.dev"
+export const NAME = "Alexis Sanchis"
 export const HANDLE = "n4yk0"
 export const EMAIL = "n4yk0@proton.me"
 export const GITHUB_URL = "https://github.com/n4yk0"
+export const PSTACK_URL = "https://github.com/cursor/plugins/tree/main/pstack"

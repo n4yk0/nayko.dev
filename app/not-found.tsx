@@ -1,26 +1,25 @@
 import Link from "next/link"
+import "./globals.css"
+import en from "@/dictionaries/en.json"
+import fr from "@/dictionaries/fr.json"
 
-const NotFound = () => {
-  return (
-    <html lang="en" className="dark">
-      <body className="flex h-screen flex-col items-center justify-center gap-4 bg-background font-mono text-foreground">
-        <p className="text-xs uppercase tracking-widest text-muted-foreground">404 · not found</p>
-        <p className="text-sm text-muted-foreground">
-          <span className="text-success">visitor@n4yk0</span>
-          <span>:</span>
-          <span className="text-primary">~</span>
-          <span>$ cat this_page</span>
-        </p>
-        <p className="text-sm text-destructive">cat: this_page: No such file or directory</p>
-        <Link
-          href="/"
-          className="text-sm text-primary underline underline-offset-4 hover:text-foreground"
-        >
-          cd ~ // back home
+const NotFound = () => (
+  <html lang="en">
+    <body className="flex min-h-screen flex-col items-center justify-center gap-4 px-5 font-sans">
+      <h1 className="text-xl font-semibold">{en.not_found.title}</h1>
+      <p lang="fr" className="text-muted-foreground">
+        {fr.not_found.title}
+      </p>
+      <p className="flex gap-6 text-sm">
+        <Link href="/en" className="link">
+          {en.nav.home}
         </Link>
-      </body>
-    </html>
-  )
-}
+        <Link href="/fr" lang="fr" className="link">
+          {fr.nav.home}
+        </Link>
+      </p>
+    </body>
+  </html>
+)
 
 export default NotFound

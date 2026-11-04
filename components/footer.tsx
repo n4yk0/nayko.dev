@@ -1,11 +1,9 @@
-import { HANDLE } from "@/lib/site"
+import { HANDLE, NAME } from "@/lib/site"
 
-export const Footer = () => {
-  return (
-    <footer className="mt-20 flex flex-col items-center gap-1.5 border-t border-border/40 py-8">
-      <p className="font-mono text-xs text-muted-foreground">
-        <span className="text-primary">$</span> echo &quot;© {new Date().getFullYear()} {HANDLE}&quot;
-      </p>
-    </footer>
-  )
-}
+export const Footer = () => (
+  <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t py-8 text-sm text-muted-foreground">
+    <p>
+      <span className="font-mono">{HANDLE}</span> · © {new Date().getFullYear()} {NAME}
+    </p>
+  </footer>
+)

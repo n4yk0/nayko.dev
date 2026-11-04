@@ -1,19 +1,23 @@
-import { Hero } from "@/components/sections/hero"
-import { Experience } from "@/components/sections/experience"
-import { Skills } from "@/components/sections/skills"
 import { Contact } from "@/components/sections/contact"
+import { Experience } from "@/components/sections/experience"
+import { Hero } from "@/components/sections/hero"
+import { HowIWork } from "@/components/sections/how-i-work"
+import { Stack } from "@/components/sections/stack"
+import { Work } from "@/components/sections/work"
 import { getDictionary } from "@/lib/dictionaries"
 
-export default async function Home(props: { params: Promise<{ lang: string }> }) {
-  const params = await props.params
-  const dict = await getDictionary(params.lang)
+export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
-    <div className="flex w-full flex-col gap-14 sm:gap-16">
+    <>
       <Hero dict={dict} />
+      <Work dict={dict} />
+      <HowIWork dict={dict} />
       <Experience dict={dict} />
-      <Skills dict={dict} />
+      <Stack dict={dict} />
       <Contact dict={dict} />
-    </div>
+    </>
   )
 }
