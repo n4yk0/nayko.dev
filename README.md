@@ -1,57 +1,72 @@
 # nayko.dev
 
-Source for **[nayko.dev](https://nayko.dev)** — the personal site and online CV of
-**n4yk0**, a security-minded software engineer.
+Source for **[nayko.dev](https://nayko.dev)**, the personal site of **Alexis Sanchis** (`n4yk0`),
+software engineer — healthcare & security.
 
-A single bilingual page (English / French) covering experience, skills and
-contact details, built to be read quickly rather than browsed.
+A single bilingual page (English / French): selected work, how I work with AI agents,
+experience, stack and contact, plus a short legal notice.
 
 ## Stack
 
-- **Next.js 15** (App Router) and **React 19** — server components by default
-- **TypeScript**
-- **Tailwind CSS v4** — CSS-first config, no `tailwind.config.js`
-- **next-themes** for light and dark
-- Locale negotiation in `middleware.ts`, both locales prerendered
+- **Next.js 15** (App Router) and **React 19**, every page statically generated
+- **TypeScript**, **Tailwind CSS v4** (CSS-first config, no `tailwind.config.js`)
+- **next-themes** for light and dark, following the system preference by default
+- Inter and JetBrains Mono self-hosted through `next/font`
+- **Vitest** for unit tests, **ESLint 9** (flat config)
 
 ## Running locally
 
 ```bash
 pnpm install
-pnpm dev        # http://localhost:3001
+pnpm dev          # http://localhost:3001
 ```
 
 ```bash
-pnpm build && pnpm start   # production build
-npx tsc --noEmit           # typecheck
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build && pnpm start
 ```
 
-`next.config.mjs` sets `ignoreBuildErrors` and `ignoreDuringBuilds`, so a green
-build does not imply a clean typecheck — run `tsc` separately.
+`next build` fails on type and lint errors.
 
 ## Internationalisation
 
-Every route lives under `app/[lang]/`. All user-facing copy is in
-`dictionaries/en.json` and `dictionaries/fr.json`, which must stay structurally
-identical: the `Dictionary` type is inferred from the English file alone, so a
-missing French key will not be caught by the compiler.
+Every route lives under `app/[lang]/`; the locale list and negotiation are in `lib/i18n.ts`,
+and `middleware.ts` redirects `/` to the visitor's language. All copy is in
+`dictionaries/en.json` and `dictionaries/fr.json`. The `Dictionary` type is inferred from the
+English file, and `dictionaries/dictionaries.test.ts` fails if the French file drifts from its
+structure.
 
-Components receive the resolved dictionary as a `dict` prop. Internal links must
-carry the locale (`` href={`/${lang}`} ``) to avoid a middleware redirect.
+Dictionary strings may contain `[label](href)` links, rendered by `components/rich-text.tsx`.
+
+## Security and SEO
+
+- Security headers (CSP, HSTS, nosniff, frame denial, Referrer-Policy, Permissions-Policy, COOP)
+  are defined in `lib/security-headers.ts` and applied in `next.config.ts`. The CSP allows
+  `'unsafe-inline'` because Next.js inlines its RSC payload; a nonce-based policy would force
+  dynamic rendering.
+- `/.well-known/security.txt` (RFC 9116) is generated at build time and expires 364 days later,
+  so it needs a deploy at least once a year.
+- Canonical and hreflang links, the sitemap, robots.txt, a per-language Open Graph image and a
+  schema.org `Person` are built from `lib/seo.ts` and `lib/structured-data.ts`.
+- No cookies, analytics or third-party requests.
 
 ## Structure
 
 ```
-app/[lang]/page.tsx    the single page: hero, experience, skills, contact
-app/[lang]/layout.tsx  shell, theme provider, metadata
-app/globals.css        Tailwind entry point and theme tokens
-components/sections/   one component per page section
-components/ui/         shadcn/ui primitives
-dictionaries/          all copy, one file per locale
-lib/definitions.tsx    contact links and experience data
-middleware.ts          locale negotiation
+app/[lang]/page.tsx              home page and its metadata
+app/[lang]/legal/page.tsx        legal notice
+app/[lang]/layout.tsx            shell, fonts, theme provider
+app/[lang]/opengraph-image.tsx   Open Graph image
+app/.well-known/security.txt/    security.txt route
+app/sitemap.ts, app/robots.ts
+components/sections/             one component per page section
+dictionaries/                    all copy, one file per locale
+lib/                             site constants, i18n, SEO, security helpers and their tests
+middleware.ts                    locale redirect
 ```
 
 ## Contact
 
-[n4yk0](https://nayko.dev) — [GitHub](https://github.com/n4yk0) · n4yk0@proton.me
+[n4yk0@proton.me](mailto:n4yk0@proton.me) · [GitHub](https://github.com/n4yk0)
