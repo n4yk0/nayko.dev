@@ -1,4 +1,4 @@
-import { HANDLE } from "@/lib/definitions"
+import { HANDLE } from "@/lib/site"
 
 export const Footer = () => {
   return (

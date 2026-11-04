@@ -1,9 +1,6 @@
 import { Github, Mail } from "lucide-react"
 import type { ReactNode } from "react"
-
-export const HANDLE = "n4yk0"
-export const EMAIL = "n4yk0@proton.me"
-export const GITHUB_URL = "https://github.com/n4yk0"
+import { EMAIL, GITHUB_URL } from "./site"
 
 export type ContactLink = {
   key: "email" | "github"

@@ -1,14 +1,20 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { Inter, JetBrains_Mono } from "next/font/google"
 import "../globals.css"
 
 import { Footer } from "@/components/footer"
 import { Navbar } from "@/components/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
 import { getDictionary } from "@/lib/dictionaries"
+import { locales } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" })
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono", display: "swap" })
 
 export async function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "fr" }]
+  return locales.map((lang) => ({ lang }))
 }
 
 export async function generateMetadata(props: {
@@ -16,10 +22,9 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const params = await props.params
   const dict = await getDictionary(params.lang)
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nayko.dev"
 
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(SITE_URL),
     title: dict.meta.title,
     description: dict.meta.description,
     icons: { icon: "/n4yk0-badge.png" },
@@ -47,7 +52,7 @@ export default async function RootLayout(props: {
   const { children } = props
 
   return (
-    <html lang={params.lang} suppressHydrationWarning>
+    <html lang={params.lang} className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 sm:px-6">
