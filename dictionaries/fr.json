@@ -36,7 +36,7 @@
         "title": "Applications hors ligne pour le maintien à domicile",
         "context": "Arche MC2 · 2018–2023",
         "problem": "Les services de soins et d'aide à domicile (SSIAD, SAD), les EHPAD et les services de portage de repas travaillent souvent avec un réseau mobile faible, voire inexistant.",
-        "built": "Des applications Android conçues pour fonctionner hors ligne : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan. D'abord en Java et Kotlin, puis en Flutter.",
+        "built": "Des applications Android conçues pour fonctionner hors ligne : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan. D'abord en Java et Kotlin, puis en Flutter.",
         "result": "Les équipes peuvent continuer à travailler sans connexion, et leurs données se synchronisent quand le réseau revient."
       },
       {
@@ -61,8 +61,8 @@
   },
   "how": {
     "title": "Ma façon de travailler avec des agents IA",
-    "intro": "J'utilise des agents de code IA pour avancer plus vite, mais je reste responsable de ce qui est livré : l'architecture, la vérification, la sécurité et la maintenance. Aller vite ne veut pas dire relâcher le contrôle.",
-    "setup": "Je m'appuie sur une collection open source de méthodes d'ingénierie pour agents de code, écrite par Lauren Tan : [pstack](https://github.com/cursor/plugins/tree/main/pstack). J'en utilise une version adaptée dans Claude Code, complétée par des règles que chaque session charge.",
+    "intro": "J'utilise des agents de code IA pour avancer plus vite, mais je reste responsable de ce qui est livré : l'architecture, la vérification, la sécurité et la maintenance. Aller vite ne veut pas dire relâcher le contrôle.",
+    "setup": "Je m'appuie sur une collection open source de méthodes d'ingénierie pour agents de code, écrite par Lauren Tan : [pstack](https://github.com/cursor/plugins/tree/main/pstack). J'en utilise une version adaptée dans Claude Code, complétée par des règles que chaque session charge.",
     "loop_title": "Les étapes",
     "steps": [
       {
@@ -82,7 +82,7 @@
       },
       {
         "name": "Vérifier",
-        "text": "Ce qui compte, c'est de voir la fonctionnalité tourner et d'observer la vraie valeur, pas seulement que « ça compile ». Un bug est d'abord reproduit et remonté jusqu'à sa cause ; un gain de performance est mesuré avant et après.",
+        "text": "Ce qui compte, c'est de voir la fonctionnalité tourner et d'observer la vraie valeur, pas seulement que « ça compile ». Un bug est d'abord reproduit et remonté jusqu'à sa cause ; un gain de performance est mesuré avant et après.",
         "skills": ["bug-fix", "perf-issue", "benchmark-checklist"]
       },
       {
@@ -98,7 +98,7 @@
       "Les commandes d'infrastructure sont d'abord testées à blanc (dry-run), et le retour arrière est prévu avant le changement.",
       "Rien de destructif, ni rien qui touche la production, ne se fait sans ma confirmation."
     ],
-    "proof": "Quelques exemples : [une plateforme d'abonnement réalisée en moins de 24 heures](#speech-therapy-platform) et [un site WordPress refait en Next.js en une heure environ](#other-work)."
+    "proof": "Quelques exemples : [une plateforme d'abonnement réalisée en moins de 24 heures](#speech-therapy-platform) et [un site WordPress refait en Next.js en une heure environ](#other-work)."
   },
   "experience": {
     "title": "Parcours",
@@ -114,7 +114,7 @@
         "org": "CBA Informatique Libérale",
         "role": "Développeur fullstack",
         "date": "2023 — 2025",
-        "summary": "Logiciels pour les professionnels de santé libéraux : Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et sa bibliothèque de composants UI.",
+        "summary": "Logiciels pour les professionnels de santé libéraux : Opaline Santé, une plateforme de rendez-vous de soins à domicile qui compte plus de 80 000 utilisateurs, et sa bibliothèque de composants UI.",
         "tags": ["Next.js", "Symfony"]
       },
       {
@@ -143,7 +143,7 @@
     "line": "TypeScript, Next.js, React · Supabase (Postgres) · Stripe · Vercel · Kotlin/Android · Rust · Linux"
   },
   "contact": {
-    "title": "Un projet ? Parlons-en.",
+    "title": "Un projet ? Parlons-en.",
     "text": "N'hésitez pas à m'écrire par e-mail, je réponds à tous les messages.",
     "github": "Mon code et mes projets perso sur GitHub"
   },
@@ -153,11 +153,11 @@
   "legal": {
     "title": "Mentions légales",
     "publisher_title": "Éditeur",
-    "contact_label": "Contact",
+    "contact_label": "Contact :",
     "host_title": "Hébergement",
     "host_country": "États-Unis",
     "data_title": "Données personnelles",
-    "data": "Ce site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience ni de suivi. Votre choix de thème clair ou sombre est enregistré uniquement dans votre navigateur. Pour servir le site, l'hébergeur peut traiter des données techniques de connexion, comme l'adresse IP : voir [la politique de confidentialité de Vercel](https://vercel.com/legal/privacy-policy).",
+    "data": "Ce site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience ni de suivi. Votre choix de thème clair ou sombre est enregistré uniquement dans votre navigateur. Pour servir le site, l'hébergeur peut traiter des données techniques de connexion, comme l'adresse IP : voir [la politique de confidentialité de Vercel](https://vercel.com/legal/privacy-policy).",
     "back": "Retour à l'accueil"
   },
   "not_found": {

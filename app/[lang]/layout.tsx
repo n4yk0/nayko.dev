@@ -8,6 +8,7 @@ import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { getDictionary } from "@/lib/dictionaries"
 import { locales } from "@/lib/i18n"
+import { alternatesFor } from "@/lib/seo"
 import { SITE_URL } from "@/lib/site"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" })
@@ -28,10 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: dict.meta.title,
     description: dict.meta.description,
     icons: { icon: "/n4yk0-badge.png" },
-    alternates: {
-      canonical: `/${lang}`,
-      languages: { en: "/en", fr: "/fr", "x-default": "/" },
-    },
+    alternates: alternatesFor(lang, ""),
   }
 }
 
@@ -54,7 +52,7 @@ export default async function RootLayout({ children, params }: { children: React
             <main id="content" className="flex-1">
               {children}
             </main>
-            <Footer />
+            <Footer lang={lang} dict={dict} />
           </div>
         </ThemeProvider>
       </body>
