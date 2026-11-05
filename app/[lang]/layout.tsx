@@ -1,59 +1,56 @@
-import type React from "react"
 import type { Metadata } from "next"
+import { Inter, JetBrains_Mono } from "next/font/google"
+import type { ReactNode } from "react"
 import "../globals.css"
 
 import { Footer } from "@/components/footer"
-import { Navbar } from "@/components/navbar"
+import { Header } from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { getDictionary } from "@/lib/dictionaries"
+import { locales } from "@/lib/i18n"
+import { SITE_URL } from "@/lib/site"
 
-export async function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "fr" }]
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" })
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono", display: "swap" })
+
+export const dynamicParams = false
+
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }))
 }
 
-export async function generateMetadata(props: {
-  params: Promise<{ lang: string }>
-}): Promise<Metadata> {
-  const params = await props.params
-  const dict = await getDictionary(params.lang)
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nayko.dev"
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(SITE_URL),
     title: dict.meta.title,
     description: dict.meta.description,
     icons: { icon: "/n4yk0-badge.png" },
-    alternates: {
-      canonical: `/${params.lang}`,
-      languages: { "en-US": "/en", "fr-FR": "/fr" },
-    },
-    openGraph: {
-      title: dict.meta.title,
-      description: dict.meta.description,
-      type: "profile",
-      url: `/${params.lang}`,
-      locale: params.lang === "fr" ? "fr_FR" : "en_US",
-      images: [{ url: "/n4yk0-badge.png", width: 512, height: 512, alt: "n4yk0" }],
-    },
   }
 }
 
-export default async function RootLayout(props: {
-  children: React.ReactNode
-  params: Promise<{ lang: string }>
-}) {
-  const params = await props.params
-  const dict = await getDictionary(params.lang)
-  const { children } = props
+export default async function RootLayout({ children, params }: { children: ReactNode; params: Promise<{ lang: string }> }) {
+  const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
-    <html lang={params.lang} suppressHydrationWarning>
-      <body className="min-h-screen bg-background font-sans text-foreground antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 sm:px-6">
-            <Navbar lang={params.lang} dict={dict} />
-            <main className="flex-1 pt-28 sm:pt-32">{children}</main>
-            <Footer />
+    <html lang={lang} className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
+      <body className="font-sans antialiased">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <a
+            href="#content"
+            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-background focus:px-3 focus:py-2"
+          >
+            {dict.nav.skip}
+          </a>
+          <div className="mx-auto flex min-h-screen w-full max-w-2xl flex-col px-5 sm:px-6">
+            <Header lang={lang} dict={dict} />
+            <main id="content" className="flex-1">
+              {children}
+            </main>
+            <Footer lang={lang} dict={dict} />
           </div>
         </ThemeProvider>
       </body>

@@ -1,35 +1,155 @@
 {
   "meta": {
-    "title": "n4yk0 — Senior Software Engineer, security-minded",
-    "description": "Senior software engineer with a security mindset. Web & mobile with React, Next.js, TypeScript and Python; OWASP practices and RNCP-certified in cybersecurity. Open to new opportunities."
+    "title": "Alexis Sanchis - Software engineer, healthcare & security",
+    "description": "Software engineer working mostly on healthcare and home-care software, with a focus on security. In teams: a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
+    "job_title": "Software engineer",
+    "og_locale": "en_US"
   },
   "nav": {
-    "switch_language": "Switch to French",
-    "toggle_theme": "Toggle theme",
-    "status": "available"
+    "skip": "Skip to content",
+    "home": "Home",
+    "switch_language": "Français",
+    "toggle_theme": "Switch to light or dark theme"
   },
   "hero": {
-    "role": "Senior Software Engineer · Security-minded",
-    "handle": "n4yk0",
-    "tagline": "I build web & mobile products with security built in — not bolted on.",
-    "years": "8+ years",
-    "prompt_user": "visitor",
-    "prompt_host": "n4yk0",
-    "whoami_cmd": "whoami",
-    "whoami": [
-      "Software engineer shipping web & mobile since 2017 — mostly for healthcare.",
-      "Day-to-day in React, Next.js & TypeScript; Python / Django on the back end.",
-      "RNCP-certified in cybersecurity — I build with OWASP in mind and treat security as part of shipping, not an afterthought.",
-      "Clear communication, maintainable code, work a team can build on."
+    "role": "Software engineer, healthcare & security",
+    "bio": "Six of my nine years in software went into healthcare and home care. I worked in the team behind a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. These days I build with agents, and I keep ownership of review and security.",
+    "focus": [
+      {
+        "id": "health",
+        "label": "Healthcare & home care"
+      },
+      {
+        "id": "security",
+        "label": "Security by design"
+      },
+      {
+        "id": "ai",
+        "label": "Building with agents"
+      }
     ],
-    "status": "available for work",
-    "french": "FR — native",
-    "english": "EN — bilingual",
-    "remote": "Remote · CET"
-  },
-  "actions": {
     "email": "Email",
-    "github": "GitHub"
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "work": {
+    "title": "Selected work",
+    "labels": {
+      "problem": "Problem",
+      "built": "What I did",
+      "result": "Result"
+    },
+    "items": [
+      {
+        "id": "opaline-sante",
+        "title": "Opaline Santé",
+        "context": "CBA Informatique Libérale · 2023–2025 · Team project",
+        "problem": "Let patients book home care with independent healthcare professionals (nurses, physiotherapists, etc.).",
+        "built": "Fullstack developer in the Opaline Santé team. I also contributed to the shared UI component library with the design team. Stack: Next.js, Symfony, Laravel.",
+        "result": "The platform has 80,000+ users."
+      },
+      {
+        "id": "offline-first-care",
+        "title": "Offline-first apps for home care",
+        "context": "Arche MC2 · 2018–2023 · Team project",
+        "problem": "Home-care services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
+        "built": "Offline-first Android apps, built as a team: an embedded SQLite database on the device, synced with the server in the background. Stack: Java and Kotlin, later Flutter.",
+        "result": "Care teams keep working without a connection, and their data syncs once the network is back."
+      },
+      {
+        "id": "speech-therapy-platform",
+        "title": "Subscription platform for a speech therapist",
+        "context": "Solo project",
+        "problem": "A speech therapist wanted to put her exercises online and offer them as a monthly subscription, to her patients and to anyone who wants to improve.",
+        "built": "The whole platform, in under 24 hours of total work with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
+        "result": "Launching soon."
+      },
+      {
+        "id": "joinery-app",
+        "title": "Joinery application",
+        "context": "Elipce Solutions · Team project",
+        "problem": "A complete joinery application that computes the overall performance of each product, such as Uw (thermal transmittance) and TL (light transmittance).",
+        "built": "Built as a team: a joinery engine on the front end (React) and, on the back end (Django), an engine that computes the overall performance of each product (Uw, TL, etc.)."
+      }
+    ],
+    "other": {
+      "id": "other-work",
+      "title": "Also",
+      "items": [
+        {
+          "id": "wordpress",
+          "text": "A WordPress site migrated to Next.js in under 45 minutes."
+        },
+        {
+          "id": "rust",
+          "text": "A few CLI tools in Rust."
+        },
+        {
+          "id": "android",
+          "text": "Three Kotlin Android apps in closed testing on Google Play."
+        },
+        {
+          "id": "linux",
+          "text": "Linux server administration on DigitalOcean."
+        }
+      ]
+    }
+  },
+  "how": {
+    "title": "How I work with agents",
+    "intro": "I use agents to move faster, but I'm still responsible for what ships: architecture, tests, security and maintenance.",
+    "setup": "I build on [pstack](https://github.com/cursor/plugins/tree/main/pstack), Lauren Tan's open-source collection of skills for agents. I use an adapted version in Claude Code, with my own rules loaded in every session.",
+    "loop_title": "The workflow",
+    "steps": [
+      {
+        "name": "Understand",
+        "text": "Before touching the code, the agent explains how that part works and why it was built that way, based on the code and its history.",
+        "skills": [
+          "how",
+          "why"
+        ],
+        "id": "understand"
+      },
+      {
+        "name": "Design",
+        "text": "Types, signatures and module boundaries are set before implementation, so the structure can still be changed cheaply.",
+        "skills": [
+          "architect"
+        ],
+        "id": "design"
+      },
+      {
+        "name": "Implement",
+        "text": "Only what was asked, with unit tests for the happy path, edge cases and errors. No extra features, no dead code.",
+        "skills": [],
+        "id": "build"
+      },
+      {
+        "name": "Verify",
+        "text": "“It compiles” is not enough: I want to see the feature running. A bug gets reproduced first, then fixed at the root. A performance gain is measured before and after.",
+        "skills": [
+          "bug-fix",
+          "perf-issue",
+          "benchmark-checklist"
+        ],
+        "id": "verify"
+      },
+      {
+        "name": "Review",
+        "text": "Before merging, the agent checks what the change could break outside the diff, by running the code. I make the final call.",
+        "skills": [
+          "blast-radius"
+        ],
+        "id": "review"
+      }
+    ],
+    "rules_title": "Rules loaded in every session",
+    "rules": [
+      "Every command, flag, package and version is checked against the official docs, with a source.",
+      "What is verified, what is assumed and what is uncertain are kept separate.",
+      "Infra commands get a dry run first, and the rollback is planned before the change.",
+      "Nothing destructive or touching production happens without my confirmation."
+    ]
   },
   "experience": {
     "title": "Experience",
@@ -37,72 +157,124 @@
       {
         "org": "Elipce Solutions",
         "role": "Software Engineer",
-        "date": "2025 — Present",
-        "description": "Custom web & mobile apps for a range of clients, across the full project lifecycle — front end to back.",
-        "stack": ["React", "Ionic", "TypeScript", "Laravel", "Django"]
+        "date": "Since 2025",
+        "summary": "Custom web and mobile apps for various clients, front end to back end.",
+        "tags": [
+          "React",
+          "Ionic",
+          "Laravel",
+          "Django"
+        ]
       },
       {
         "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
-        "date": "2023 — 2025",
-        "description": "Opaline Santé — a home-care booking platform serving 80,000+ users. Also maintained the shared UI component library alongside the design team.",
-        "stack": ["Next.js", "Symfony", "Design system"]
+        "date": "2023–2025",
+        "summary": "Software for independent healthcare professionals. I worked in the Opaline Santé team (home-care booking, 80,000+ users) and contributed to its UI component library.",
+        "tags": [
+          "Next.js",
+          "Symfony",
+          "Laravel"
+        ]
       },
       {
         "org": "Arche MC2",
         "role": "Android Developer",
-        "date": "2018 — 2023",
-        "description": "Offline-first apps for home nursing and care homes — embedded SQLite and background sync to keep working in low-coverage areas. Java/Kotlin, later Flutter.",
-        "stack": ["Java", "Kotlin", "Flutter", "SQLite"]
+        "date": "2018–2023",
+        "summary": "Offline-first Android apps for home-care services, nursing homes and meal delivery.",
+        "tags": [
+          "Kotlin",
+          "Java",
+          "Flutter"
+        ]
       },
       {
         "org": "Logic'gram",
         "role": "Developer",
         "date": "2017",
-        "description": "Cross-platform augmented-reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
-        "stack": ["Unity", "C#", "Swift"]
-      },
-      {
-        "org": "M.Sc. Software Engineering",
-        "role": "University of Avignon (CERI)",
-        "date": "2015 — 2017",
-        "description": "",
-        "stack": []
+        "summary": "Cross-platform augmented reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
+        "tags": [
+          "Unity",
+          "C#",
+          "Swift"
+        ]
       }
+    ],
+    "education_title": "Education",
+    "education": [
+      "M.Sc. in Software Engineering, University of Avignon (CERI), 2015–2017",
+      "RNCP certification in cybersecurity"
     ]
   },
-  "skills": {
-    "title": "Skills",
+  "stack": {
+    "title": "Stack",
     "groups": [
       {
-        "label": "Front-end",
-        "items": ["Next.js", "React", "TypeScript"]
+        "id": "web",
+        "label": "Web",
+        "items": [
+          "TypeScript",
+          "Next.js",
+          "React"
+        ]
       },
       {
+        "id": "backend",
+        "label": "Back end & payments",
+        "items": [
+          "Django",
+          "Laravel",
+          "Supabase (Postgres)",
+          "Stripe"
+        ]
+      },
+      {
+        "id": "mobile",
         "label": "Mobile",
-        "items": ["React Native", "Android"]
+        "items": [
+          "Kotlin",
+          "Android",
+          "Ionic/Capacitor",
+          "React Native"
+        ]
       },
       {
-        "label": "Back-end",
-        "items": ["Laravel", "Django", "Python"]
+        "id": "systems",
+        "label": "Systems & hosting",
+        "items": [
+          "Rust",
+          "Linux",
+          "Vercel"
+        ]
       },
       {
-        "label": "Security",
-        "items": ["OWASP", "Secure coding", "Penetration testing"]
-      },
-      {
-        "label": "AI-assisted workflow",
-        "items": ["Claude Code", "Gemini CLI"]
+        "id": "ai",
+        "label": "Agents",
+        "items": [
+          "Claude Code",
+          "Gemini CLI"
+        ]
       }
     ]
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "Open to new engineering opportunities where security matters. Email is the fastest way to reach me — I reply to every message.",
-    "email_note": "Preferred",
-    "github_note": "Code & side projects"
+    "text": "A question, or want to talk shop? Email is the easiest way to reach me. I reply to every message."
   },
   "footer": {
-    "rights": "All rights reserved."
+    "legal": "Legal notice"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "publisher_title": "Publisher",
+    "contact_label": "Contact:",
+    "host_title": "Hosting",
+    "host_country": "United States",
+    "data_title": "Personal data",
+    "data": "This site sets no cookies and uses no analytics or tracking. Your light or dark theme choice is stored in your browser only. To serve the site, the host may process technical connection data such as IP addresses: see [Vercel's privacy policy](https://vercel.com/legal/privacy-policy).",
+    "back": "Back to home"
+  },
+  "not_found": {
+    "title": "Page not found"
   }
 }
