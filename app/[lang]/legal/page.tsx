@@ -27,7 +27,7 @@ export default async function Legal({ params }: { params: Promise<{ lang: string
 
   return (
     <article className="pb-16 pt-8 sm:pt-14">
-      <h1 className="text-3xl font-semibold tracking-tight">{legal.title}</h1>
+      <h1 className="font-serif text-3xl tracking-tight">{legal.title}</h1>
 
       <section aria-labelledby="publisher" className="mt-12">
         <h2 id="publisher" className="font-medium">

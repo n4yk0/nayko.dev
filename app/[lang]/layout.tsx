@@ -1,5 +1,7 @@
 import type { Metadata } from "next"
-import { Inter, JetBrains_Mono } from "next/font/google"
+import { GeistMono } from "geist/font/mono"
+import { GeistSans } from "geist/font/sans"
+import { GeistSerifRegular } from "geist/font/serif/regular"
 import type { ReactNode } from "react"
 import "../globals.css"
 
@@ -9,9 +11,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { getDictionary } from "@/lib/dictionaries"
 import { locales } from "@/lib/i18n"
 import { SITE_URL } from "@/lib/site"
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" })
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono", display: "swap" })
 
 export const dynamicParams = false
 
@@ -36,7 +35,7 @@ export default async function RootLayout({ children, params }: { children: React
   const dict = await getDictionary(lang)
 
   return (
-    <html lang={lang} className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
+    <html lang={lang} className={`${GeistSans.variable} ${GeistMono.variable} ${GeistSerifRegular.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <a

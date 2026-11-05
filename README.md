@@ -11,7 +11,8 @@ experience, stack and contact, plus a short legal notice.
 - **Next.js 15** (App Router) and **React 19**, every page statically generated
 - **TypeScript**, **Tailwind CSS v4** (CSS-first config, no `tailwind.config.js`)
 - **next-themes** for light and dark, following the system preference by default
-- Inter and JetBrains Mono self-hosted through `next/font`
+- Geist Sans for text, Geist Serif for page and section titles, Geist Mono for code, self-hosted from
+  the `geist` package
 - **Vitest** for unit tests, **ESLint 9** (flat config)
 
 ## Running locally
