@@ -6,7 +6,7 @@ import { NAME } from "@/lib/site"
 
 export const Hero = ({ dict }: { dict: Dictionary }) => (
   <section aria-labelledby="hero-title" className="pb-14 pt-8 sm:pt-14">
-    <h1 id="hero-title" className="text-4xl font-semibold tracking-tight sm:text-5xl">
+    <h1 id="hero-title" className="font-serif text-4xl tracking-tight sm:text-5xl">
       {NAME}
     </h1>
     <p className="mt-3 text-lg text-muted-foreground">{dict.hero.role}</p>

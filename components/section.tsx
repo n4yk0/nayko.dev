@@ -15,7 +15,7 @@ export const Section = ({
   <section id={id} aria-labelledby={`${id}-title`} className="scroll-mt-6 border-t py-14">
     <div className="flex items-center gap-2.5">
       <Icon className="h-5 w-5 text-primary" aria-hidden="true" />
-      <h2 id={`${id}-title`} className="text-xl font-semibold tracking-tight">
+      <h2 id={`${id}-title`} className="font-serif text-2xl tracking-tight">
         {title}
       </h2>
     </div>
