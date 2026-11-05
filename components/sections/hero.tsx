@@ -12,12 +12,12 @@ export const Hero = ({ dict }: { dict: Dictionary }) => (
     <p className="mt-3 text-lg text-muted-foreground">{dict.hero.role}</p>
     <div className="mt-8 flow-root">
       <Image
-        src="/n4yk0.png"
-        alt=""
+        src="/alexis-sanchis.jpg"
+        alt={dict.hero.portrait_alt}
         width={96}
         height={96}
         priority
-        className="float-left mb-2 mr-5 h-24 w-24 rounded-full bg-white object-contain p-3 ring-1 ring-black/5"
+        className="float-left mb-2 mr-5 h-24 w-24 rounded-full object-cover ring-1 ring-black/5 dark:ring-white/10"
       />
       <p className="text-pretty leading-relaxed">{dict.hero.bio}</p>
     </div>
