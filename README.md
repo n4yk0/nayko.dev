@@ -1,9 +1,9 @@
 # nayko.dev
 
 Source for **[nayko.dev](https://nayko.dev)**, the personal site of **Alexis Sanchis** (`n4yk0`),
-software engineer — healthcare & security.
+software engineer in healthcare and security.
 
-A single bilingual page (English / French): selected work, how I work with AI agents,
+A single bilingual page (English / French): selected work, how I work with agents,
 experience, stack and contact, plus a short legal notice.
 
 ## Stack

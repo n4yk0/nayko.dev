@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const dict = await getDictionary(lang)
 
   return {
-    title: `${dict.legal.title} — ${NAME}`,
+    title: `${dict.legal.title} - ${NAME}`,
     alternates: alternatesFor(lang, "/legal"),
   }
 }

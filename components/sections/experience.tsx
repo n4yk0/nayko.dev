@@ -17,7 +17,7 @@ export const Experience = ({ dict }: { dict: Dictionary }) => {
             />
             <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
               <h3 className="font-medium">
-                {item.org} <span className="font-normal text-muted-foreground">— {item.role}</span>
+                {item.org} <span className="font-normal text-muted-foreground">· {item.role}</span>
               </h3>
               <p className="shrink-0 font-mono text-xs text-muted-foreground">{item.date}</p>
             </div>

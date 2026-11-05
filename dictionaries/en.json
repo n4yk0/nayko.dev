@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alexis Sanchis — Software engineer, healthcare & security",
-    "description": "Software engineer specialized in healthcare and home-care software, with security built in: team work on a booking platform serving 80,000+ users, offline-first apps for home-care nurses, production products shipped with AI agents.",
+    "title": "Alexis Sanchis - Software engineer, healthcare & security",
+    "description": "Software engineer working mostly on healthcare and home-care software, with a focus on security. In teams: a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -9,11 +9,11 @@
     "skip": "Skip to content",
     "home": "Home",
     "switch_language": "Français",
-    "toggle_theme": "Switch between light and dark theme"
+    "toggle_theme": "Switch to light or dark theme"
   },
   "hero": {
-    "role": "Software engineer — healthcare & security.",
-    "bio": "Six of my nine years in software went into healthcare and home care: I worked in the team behind a booking platform serving 80,000+ users, and on offline-first apps for nurses working in low-coverage areas. Today I ship production products with AI agents — fast, verified, and secure by design.",
+    "role": "Software engineer, healthcare & security",
+    "bio": "Six of my nine years in software went into healthcare and home care. I worked in the team behind a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. These days I build with agents, and I keep ownership of review and security.",
     "focus": [
       {
         "id": "health",
@@ -25,7 +25,7 @@
       },
       {
         "id": "ai",
-        "label": "AI-native delivery"
+        "label": "Building with agents"
       }
     ],
     "email": "Email",
@@ -41,34 +41,34 @@
     "items": [
       {
         "id": "opaline-sante",
-        "title": "Opaline Santé — home-care booking",
+        "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025 · Team project",
-        "problem": "Let patients book home care from independent healthcare professionals — nurses, physiotherapists and others.",
-        "built": "Fullstack developer in the team building Opaline Santé, CBA's booking platform. I also contributed to the shared UI component library, together with the design team. Next.js, Symfony and Laravel.",
-        "result": "The platform serves 80,000+ users."
+        "problem": "Let patients book home care with independent healthcare professionals (nurses, physiotherapists, etc.).",
+        "built": "Fullstack developer in the Opaline Santé team. I also contributed to the shared UI component library with the design team. Stack: Next.js, Symfony, Laravel.",
+        "result": "The platform has 80,000+ users."
       },
       {
         "id": "offline-first-care",
         "title": "Offline-first apps for home care",
         "context": "Arche MC2 · 2018–2023 · Team project",
-        "problem": "Home-care nursing services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
-        "built": "As part of the team, offline-first Android apps: an embedded SQLite database on the device, synced with the server in the background. Java and Kotlin, later Flutter.",
-        "result": "Care teams keep working without a connection; their data syncs once the network is back."
+        "problem": "Home-care services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
+        "built": "Offline-first Android apps, built as a team: an embedded SQLite database on the device, synced with the server in the background. Stack: Java and Kotlin, later Flutter.",
+        "result": "Care teams keep working without a connection, and their data syncs once the network is back."
       },
       {
         "id": "speech-therapy-platform",
         "title": "Subscription platform for a speech therapist",
         "context": "Freelance · Solo project",
-        "problem": "A speech therapist wanted to publish her exercises online and offer them by monthly subscription, to her patients and to anyone who wants to improve.",
-        "built": "The whole platform — Next.js, Supabase (Postgres), Stripe subscriptions, hosted on Vercel — in under 24 hours of total work, directing AI coding agents.",
+        "problem": "A speech therapist wanted to put her exercises online and offer them as a monthly subscription, to her patients and to anyone who wants to improve.",
+        "built": "The whole platform, in under 24 hours of total work with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
         "result": "Launching soon."
       },
       {
         "id": "joinery-app",
-        "title": "A complete joinery application",
+        "title": "Joinery application",
         "context": "Elipce Solutions · Team project",
-        "problem": "Build a complete joinery application, including the computation of each product's overall performance figures such as Uw (thermal transmittance) and TL (light transmission).",
-        "built": "As part of the team, a joinery engine on the React front end, and an engine on the Django back end that computes the overall figures of each joinery product (Uw, TL…). React and Django."
+        "problem": "A complete joinery application that computes the overall performance of each product, such as Uw (thermal transmittance) and TL (light transmittance).",
+        "built": "Built as a team: a joinery engine on the front end (React) and, on the back end (Django), an engine that computes the overall performance of each product (Uw, TL, etc.)."
       }
     ],
     "other": {
@@ -77,32 +77,32 @@
       "items": [
         {
           "id": "wordpress",
-          "text": "A WordPress site rebuilt in Next.js in under 45 minutes."
+          "text": "A WordPress site migrated to Next.js in under 45 minutes."
         },
         {
           "id": "rust",
-          "text": "Command-line tools in Rust."
+          "text": "A few CLI tools in Rust."
         },
         {
           "id": "android",
-          "text": "Three Kotlin Android apps, in closed testing on Google Play."
+          "text": "Three Kotlin Android apps in closed testing on Google Play."
         },
         {
           "id": "linux",
-          "text": "Linux server operations on DigitalOcean."
+          "text": "Linux server administration on DigitalOcean."
         }
       ]
     }
   },
   "how": {
-    "title": "How I work with AI agents",
-    "intro": "I direct AI coding agents to ship production software fast, and I stay accountable for what ships: architecture, verification, security and maintenance. Speed always comes paired with control.",
-    "setup": "My workflow builds on Lauren Tan's open-source collection of engineering playbooks for AI coding agents, [pstack](https://github.com/cursor/plugins/tree/main/pstack). I run an adapted subset of it in Claude Code, together with rules that every session loads.",
-    "loop_title": "The loop",
+    "title": "How I work with agents",
+    "intro": "I use agents to move faster, but I'm still responsible for what ships: architecture, tests, security and maintenance.",
+    "setup": "I build on [pstack](https://github.com/cursor/plugins/tree/main/pstack), Lauren Tan's open-source collection of skills for agents. I use an adapted version in Claude Code, with my own rules loaded in every session.",
+    "loop_title": "The workflow",
     "steps": [
       {
         "name": "Understand",
-        "text": "Before touching code, the agent explains how the subsystem works and why it was built that way, from the code and its history.",
+        "text": "Before touching the code, the agent explains how that part works and why it was built that way, based on the code and its history.",
         "skills": [
           "how",
           "why"
@@ -111,21 +111,21 @@
       },
       {
         "name": "Design",
-        "text": "Types, signatures and module boundaries come before implementation, so the shape gets reviewed while it is still cheap to change.",
+        "text": "Types, signatures and module boundaries are set before implementation, so the structure can still be changed cheaply.",
         "skills": [
           "architect"
         ],
         "id": "design"
       },
       {
-        "name": "Build",
-        "text": "The requested scope and nothing more, with unit tests for normal cases, edge cases and errors. No unrequested features, no dead code.",
+        "name": "Implement",
+        "text": "Only what was asked, with unit tests for the happy path, edge cases and errors. No extra features, no dead code.",
         "skills": [],
         "id": "build"
       },
       {
         "name": "Verify",
-        "text": "Proof is the feature running and the real value, not “it compiles”. A bug is reproduced and traced to its root cause before it is fixed; a performance gain is measured before and after.",
+        "text": "“It compiles” is not enough: I want to see the feature running. A bug gets reproduced first, then fixed at the root. A performance gain is measured before and after.",
         "skills": [
           "bug-fix",
           "perf-issue",
@@ -135,21 +135,21 @@
       },
       {
         "name": "Review",
-        "text": "Before shipping: what else the change could break beyond its diff, checked by running code. The final call on what ships is mine.",
+        "text": "Before merging, the agent checks what the change could break outside the diff, by running the code. I make the final call.",
         "skills": [
           "blast-radius"
         ],
         "id": "review"
       }
     ],
-    "rules_title": "Rules every session loads",
+    "rules_title": "Rules loaded in every session",
     "rules": [
-      "Every command, flag, package and version is checked against the official documentation, with its source.",
-      "Verified facts, assumptions and uncertainties are stated separately.",
-      "Infrastructure commands get a dry run first, and a rollback plan is written before the change.",
-      "Anything destructive or touching production waits for my explicit confirmation."
+      "Every command, flag, package and version is checked against the official docs, with a source.",
+      "What is verified, what is assumed and what is uncertain are kept separate.",
+      "Infra commands get a dry run first, and the rollback is planned before the change.",
+      "Nothing destructive or touching production happens without my confirmation."
     ],
-    "proof": "In practice: [a subscription platform built in under 24 hours](#speech-therapy-platform), and [a WordPress site rebuilt in Next.js in under 45 minutes](#other-work)."
+    "proof": "In practice: [a subscription platform in under 24 hours](#speech-therapy-platform) and [a WordPress site migrated to Next.js in under 45 minutes](#other-work)."
   },
   "experience": {
     "title": "Experience",
@@ -157,8 +157,8 @@
       {
         "org": "Elipce Solutions",
         "role": "Software Engineer",
-        "date": "2025 — Present",
-        "summary": "Custom web & mobile apps for a range of clients, across the full project lifecycle — front end to back.",
+        "date": "Since 2025",
+        "summary": "Custom web and mobile apps for various clients, front end to back end.",
         "tags": [
           "React",
           "Ionic",
@@ -169,8 +169,8 @@
       {
         "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
-        "date": "2023 — 2025",
-        "summary": "Software for independent healthcare professionals. Fullstack developer in the Opaline Santé team — a home-care booking platform serving 80,000+ users — and contributor to its shared UI component library.",
+        "date": "2023–2025",
+        "summary": "Software for independent healthcare professionals. I worked in the Opaline Santé team (home-care booking, 80,000+ users) and contributed to its UI component library.",
         "tags": [
           "Next.js",
           "Symfony",
@@ -180,8 +180,8 @@
       {
         "org": "Arche MC2",
         "role": "Android Developer",
-        "date": "2018 — 2023",
-        "summary": "Offline-first Android apps for home-care nursing services, nursing homes and meal delivery.",
+        "date": "2018–2023",
+        "summary": "Offline-first Android apps for home-care services, nursing homes and meal delivery.",
         "tags": [
           "Kotlin",
           "Java",
@@ -192,7 +192,7 @@
         "org": "Logic'gram",
         "role": "Developer",
         "date": "2017",
-        "summary": "Cross-platform augmented-reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
+        "summary": "Cross-platform augmented reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
         "tags": [
           "Unity",
           "C#",
@@ -202,7 +202,7 @@
     ],
     "education_title": "Education",
     "education": [
-      "M.Sc. in Software Engineering, University of Avignon (CERI), 2015 — 2017",
+      "M.Sc. in Software Engineering, University of Avignon (CERI), 2015–2017",
       "RNCP certification in cybersecurity"
     ]
   },
@@ -249,7 +249,7 @@
       },
       {
         "id": "ai",
-        "label": "AI agents",
+        "label": "Agents",
         "items": [
           "Claude Code",
           "Gemini CLI"
@@ -259,7 +259,7 @@
   },
   "contact": {
     "title": "Have a project? Let's talk.",
-    "text": "Email is the fastest way to reach me — I reply to every message."
+    "text": "Email is the easiest way to reach me. I reply to every message."
   },
   "footer": {
     "legal": "Legal notice"
