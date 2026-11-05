@@ -59,7 +59,7 @@
       {
         "id": "speech-therapy-platform",
         "title": "Subscription platform for a speech therapist",
-        "context": "Freelance · Solo project",
+        "context": "Solo project",
         "problem": "A speech therapist wanted to put her exercises online and offer them as a monthly subscription, to her patients and to anyone who wants to improve.",
         "built": "The whole platform, in under 24 hours of total work with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
         "result": "Launching soon."
@@ -259,8 +259,8 @@
     ]
   },
   "contact": {
-    "title": "Have a project? Let's talk.",
-    "text": "Email is the easiest way to reach me. I reply to every message."
+    "title": "Get in touch",
+    "text": "A question, or want to talk shop? Email is the easiest way to reach me. I reply to every message."
   },
   "footer": {
     "legal": "Legal notice"

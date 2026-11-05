@@ -59,7 +59,7 @@
       {
         "id": "speech-therapy-platform",
         "title": "Plateforme d'abonnement pour une orthophoniste",
-        "context": "Freelance · Projet solo",
+        "context": "Projet solo",
         "problem": "Une orthophoniste voulait mettre ses exercices en ligne et les proposer en abonnement mensuel, à ses patients mais aussi à toute personne qui veut progresser.",
         "built": "Toute la plateforme, en moins de 24 h de travail cumulé avec des agents. Stack : Next.js, Supabase, Stripe (abonnements), Vercel.",
         "result": "Mise en ligne prochainement."
@@ -259,8 +259,8 @@
     ]
   },
   "contact": {
-    "title": "Un projet ? Parlons-en.",
-    "text": "Le plus simple, c'est de m'écrire par e-mail. Je réponds à tous les messages."
+    "title": "Me contacter",
+    "text": "Une question, ou envie d'échanger sur un sujet technique ? Le plus simple, c'est de m'écrire par e-mail. Je réponds à tous les messages."
   },
   "footer": {
     "legal": "Mentions légales"
