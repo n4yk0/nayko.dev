@@ -9,7 +9,7 @@ export const Contact = ({ dict }: { dict: Dictionary }) => (
     <p className="leading-relaxed">{dict.contact.text}</p>
     <p className="mt-2 font-mono text-sm text-muted-foreground">{EMAIL}</p>
     <div className="mt-6">
-      <ContactButtons emailLabel={dict.hero.email} githubLabel={dict.hero.github} />
+      <ContactButtons labels={dict.hero} />
     </div>
   </Section>
 )

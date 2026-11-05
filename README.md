@@ -69,4 +69,4 @@ middleware.ts                    locale redirect
 
 ## Contact
 
-[n4yk0@proton.me](mailto:n4yk0@proton.me) · [GitHub](https://github.com/n4yk0)
+[n4yk0@proton.me](mailto:n4yk0@proton.me) · [GitHub](https://github.com/n4yk0) · [LinkedIn](https://www.linkedin.com/in/alexis-sanchis-617301129/)

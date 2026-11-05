@@ -11,9 +11,12 @@ describe("personJsonLd", () => {
     expect(person.alternateName).toBe("n4yk0")
   })
 
-  it("points to the localized page and the GitHub profile", () => {
+  it("points to the localized page and the GitHub and LinkedIn profiles", () => {
     expect(person.url).toMatch(/\/fr$/)
-    expect(person.sameAs).toContain("https://github.com/n4yk0")
+    expect(person.sameAs).toEqual([
+      "https://github.com/n4yk0",
+      "https://www.linkedin.com/in/alexis-sanchis-617301129/",
+    ])
   })
 })
 

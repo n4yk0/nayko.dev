@@ -25,7 +25,7 @@ export const Hero = ({ dict }: { dict: Dictionary }) => (
       })}
     </ul>
     <div className="mt-8">
-      <ContactButtons emailLabel={dict.hero.email} githubLabel={dict.hero.github} />
+      <ContactButtons labels={dict.hero} />
     </div>
   </section>
 )
