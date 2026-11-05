@@ -149,8 +149,7 @@
       "Ce qui est vérifié, ce qui est supposé et ce qui reste incertain sont clairement séparés.",
       "Les commandes qui touchent à l'infra passent d'abord en dry-run, et le rollback est prévu avant le changement.",
       "Rien de destructif, ni rien qui touche à la prod, ne se fait sans ma validation."
-    ],
-    "proof": "En pratique : [une plateforme d'abonnement en moins de 24 h](#speech-therapy-platform) et [un site WordPress migré vers Next.js en moins de 45 minutes](#other-work)."
+    ]
   },
   "experience": {
     "title": "Parcours",

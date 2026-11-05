@@ -149,8 +149,7 @@
       "What is verified, what is assumed and what is uncertain are kept separate.",
       "Infra commands get a dry run first, and the rollback is planned before the change.",
       "Nothing destructive or touching production happens without my confirmation."
-    ],
-    "proof": "In practice: [a subscription platform in under 24 hours](#speech-therapy-platform) and [a WordPress site migrated to Next.js in under 45 minutes](#other-work)."
+    ]
   },
   "experience": {
     "title": "Experience",

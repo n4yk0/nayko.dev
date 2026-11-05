@@ -5,7 +5,7 @@ import { Section } from "@/components/section"
 import type { Dictionary } from "@/lib/dictionaries"
 
 export const HowIWork = ({ dict }: { dict: Dictionary }) => {
-  const { title, intro, setup, loop_title, steps, rules_title, rules, proof } = dict.how
+  const { title, intro, setup, loop_title, steps, rules_title, rules } = dict.how
 
   return (
     <Section id="how-i-work" title={title} icon={sectionIcons.howIWork}>
@@ -52,10 +52,6 @@ export const HowIWork = ({ dict }: { dict: Dictionary }) => {
           </li>
         ))}
       </ul>
-
-      <p className="mt-10 leading-relaxed">
-        <RichText text={proof} />
-      </p>
     </Section>
   )
 }
