@@ -1,10 +1,10 @@
 # nayko.dev
 
 Source for **[nayko.dev](https://nayko.dev)**, the personal site of **Alexis Sanchis** (`n4yk0`),
-software engineer in healthcare and security.
+fullstack TypeScript developer, web and mobile.
 
-A single bilingual page (English / French): selected work, how I work with agents,
-experience, stack and contact, plus a short legal notice.
+A single bilingual page (English / French): selected work, experience, stack, how I work
+with agents and contact, plus a short legal notice.
 
 ## Stack
 

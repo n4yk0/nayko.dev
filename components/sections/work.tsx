@@ -1,9 +1,9 @@
-import { otherWorkIcons, sectionIcons, workIcons } from "@/components/icons"
+import { sectionIcons, workIcons } from "@/components/icons"
 import { Section } from "@/components/section"
 import type { Dictionary } from "@/lib/dictionaries"
 
 export const Work = ({ dict }: { dict: Dictionary }) => {
-  const { title, labels, items, other } = dict.work
+  const { title, labels, items } = dict.work
 
   return (
     <Section id="work" title={title} icon={sectionIcons.work}>
@@ -36,21 +36,6 @@ export const Work = ({ dict }: { dict: Dictionary }) => {
             </article>
           )
         })}
-
-        <div id={other.id} className="scroll-mt-6">
-          <h3 className="font-medium">{other.title}</h3>
-          <ul className="mt-4 space-y-2.5 leading-relaxed">
-            {other.items.map((item) => {
-              const Icon = otherWorkIcons[item.id]
-              return (
-                <li key={item.id} className="flex items-start gap-3">
-                  <Icon className="mt-1 h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
-                  <span>{item.text}</span>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
       </div>
     </Section>
   )

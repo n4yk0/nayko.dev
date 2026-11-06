@@ -45,9 +45,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(person) }} />
       <Hero dict={dict} />
       <Work dict={dict} />
-      <HowIWork dict={dict} />
       <Experience dict={dict} />
       <Stack dict={dict} />
+      <HowIWork dict={dict} />
       <Contact dict={dict} />
     </>
   )

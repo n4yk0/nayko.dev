@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alexis Sanchis - Software engineer, healthcare & security",
-    "description": "Software engineer working mostly on healthcare and home-care software, with a focus on security. In teams: a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
+    "title": "Alexis Sanchis - Fullstack TypeScript developer, web and mobile",
+    "description": "Fullstack TypeScript developer, web and mobile. Six years on healthcare and home-care software, including, in teams, a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -12,16 +12,12 @@
     "toggle_theme": "Switch to light or dark theme"
   },
   "hero": {
-    "role": "Software engineer, healthcare & security",
-    "bio": "Six of my nine years in software went into healthcare and home care. I worked in the team behind a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. These days I build with agents, and I keep ownership of review and security.",
+    "role": "Fullstack TypeScript developer, web and mobile",
+    "bio": "I spent six years building healthcare and home-care software. In teams, I worked on a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. My main stack is TypeScript (React, Next.js, React Native) and Android. I build with agents, and I review everything that goes to production.",
     "focus": [
       {
         "id": "health",
         "label": "Healthcare & home care"
-      },
-      {
-        "id": "security",
-        "label": "Security by design"
       },
       {
         "id": "ai",
@@ -46,7 +42,7 @@
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025 · Team project",
         "problem": "Let patients book home care with independent healthcare professionals (nurses, physiotherapists, etc.).",
-        "built": "Fullstack developer in the Opaline Santé team. I also contributed to the shared UI component library with the design team. Stack: Next.js, Symfony, Laravel.",
+        "built": "Fullstack developer in the Opaline Santé team. I also contributed to the shared UI component library with the design team.",
         "result": "The platform has 80,000+ users."
       },
       {
@@ -54,7 +50,7 @@
         "title": "Offline-first apps for home care",
         "context": "Arche MC2 · 2018–2023 · Team project",
         "problem": "Home-care services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
-        "built": "Offline-first Android apps, built as a team: an embedded SQLite database on the device, synced with the server in the background. Stack: Java and Kotlin, later Flutter.",
+        "built": "Offline-first Android apps, built as a team: an embedded SQLite database on the device, synced with the server in the background.",
         "result": "Care teams keep working without a connection, and their data syncs once the network is back."
       },
       {
@@ -62,7 +58,7 @@
         "title": "Subscription platform for a speech therapist",
         "context": "Solo project",
         "problem": "A speech therapist wanted to put her exercises online and offer them as a monthly subscription, to her patients and to anyone who wants to improve.",
-        "built": "The whole platform, in under 24 hours of total work with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
+        "built": "The whole platform, built with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
         "result": "Launching soon."
       },
       {
@@ -70,80 +66,14 @@
         "title": "Joinery application",
         "context": "Elipce Solutions · Team project",
         "problem": "A complete joinery application that computes the overall performance of each product, such as Uw (thermal transmittance) and TL (light transmittance).",
-        "built": "Built as a team: a joinery engine on the front end (React) and, on the back end (Django), an engine that computes the overall performance of each product (Uw, TL, etc.)."
+        "built": "Built as a team: a joinery engine on the front end (React) and, on the back end (Django), the engine that computes these values."
       }
-    ],
-    "other": {
-      "id": "other-work",
-      "title": "Also",
-      "items": [
-        {
-          "id": "wordpress",
-          "text": "A WordPress site migrated to Next.js in under 45 minutes."
-        },
-        {
-          "id": "rust",
-          "text": "A few CLI tools in Rust."
-        },
-        {
-          "id": "android",
-          "text": "Three Kotlin Android apps in closed testing on Google Play."
-        },
-        {
-          "id": "linux",
-          "text": "Linux server administration on DigitalOcean."
-        }
-      ]
-    }
+    ]
   },
   "how": {
     "title": "How I work with agents",
     "intro": "I use agents to move faster, but I'm still responsible for what ships: architecture, tests, security and maintenance.",
     "setup": "I build on [pstack](https://github.com/cursor/plugins/tree/main/pstack), Lauren Tan's open-source collection of skills for agents. I use an adapted version in Claude Code, with my own rules loaded in every session.",
-    "loop_title": "The workflow",
-    "steps": [
-      {
-        "name": "Understand",
-        "text": "Before touching the code, the agent explains how that part works and why it was built that way, based on the code and its history.",
-        "skills": [
-          "how",
-          "why"
-        ],
-        "id": "understand"
-      },
-      {
-        "name": "Design",
-        "text": "Types, signatures and module boundaries are set before implementation, so the structure can still be changed cheaply.",
-        "skills": [
-          "architect"
-        ],
-        "id": "design"
-      },
-      {
-        "name": "Implement",
-        "text": "Only what was asked, with unit tests for the happy path, edge cases and errors. No extra features, no dead code.",
-        "skills": [],
-        "id": "build"
-      },
-      {
-        "name": "Verify",
-        "text": "“It compiles” is not enough: I want to see the feature running. A bug gets reproduced first, then fixed at the root. A performance gain is measured before and after.",
-        "skills": [
-          "bug-fix",
-          "perf-issue",
-          "benchmark-checklist"
-        ],
-        "id": "verify"
-      },
-      {
-        "name": "Review",
-        "text": "Before merging, the agent checks what the change could break outside the diff, by running the code. I make the final call.",
-        "skills": [
-          "blast-radius"
-        ],
-        "id": "review"
-      }
-    ],
     "rules_title": "Rules loaded in every session",
     "rules": [
       "Every command, flag, package and version is checked against the official docs, with a source.",
@@ -174,7 +104,6 @@
         "summary": "Software for independent healthcare professionals. I worked in the Opaline Santé team (home-care booking, 80,000+ users) and contributed to its UI component library.",
         "tags": [
           "Next.js",
-          "Symfony",
           "Laravel"
         ]
       },
@@ -215,45 +144,41 @@
         "label": "Web",
         "items": [
           "TypeScript",
+          "React",
           "Next.js",
-          "React"
-        ]
-      },
-      {
-        "id": "backend",
-        "label": "Back end & payments",
-        "items": [
-          "Django",
-          "Laravel",
-          "Supabase (Postgres)",
-          "Stripe"
+          "Vercel"
         ]
       },
       {
         "id": "mobile",
         "label": "Mobile",
         "items": [
-          "Kotlin",
-          "Android",
-          "Ionic/Capacitor",
-          "React Native"
+          "React Native",
+          "Android (Kotlin, Java)",
+          "Ionic/Capacitor"
         ]
       },
       {
-        "id": "systems",
-        "label": "Systems & hosting",
+        "id": "backend",
+        "label": "Back end & payments",
         "items": [
-          "Rust",
-          "Linux",
-          "Vercel"
+          "Supabase (Postgres)",
+          "Stripe"
         ]
       },
       {
         "id": "ai",
         "label": "Agents",
         "items": [
-          "Claude Code",
-          "Gemini CLI"
+          "Claude Code"
+        ]
+      },
+      {
+        "id": "notions",
+        "label": "Some experience",
+        "items": [
+          "Laravel",
+          "Django"
         ]
       }
     ]
