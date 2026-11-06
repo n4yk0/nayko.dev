@@ -11,6 +11,10 @@ export const personJsonLd = ({ lang, jobTitle, description }: { lang: string; jo
   description,
   sameAs: [GITHUB_URL, LINKEDIN_URL],
   knowsLanguage: ["fr", "en"],
+  nationality: [
+    { "@type": "Country", name: "France" },
+    { "@type": "Country", name: "Switzerland" },
+  ],
 })
 
 export const serializeJsonLd = (data: object) => JSON.stringify(data).replace(/</g, "\\u003c")
