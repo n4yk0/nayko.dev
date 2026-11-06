@@ -18,6 +18,13 @@ describe("personJsonLd", () => {
       "https://www.linkedin.com/in/alexis-sanchis-617301129/",
     ])
   })
+
+  it("lists both nationalities as schema.org countries", () => {
+    expect(person.nationality).toEqual([
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "Switzerland" },
+    ])
+  })
 })
 
 describe("serializeJsonLd", () => {

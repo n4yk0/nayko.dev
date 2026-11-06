@@ -13,6 +13,7 @@
   },
   "hero": {
     "role": "Ingénieur logiciel fullstack, web et mobile",
+    "nationality": "Nationalités française et suisse",
     "bio": "J'ai passé six ans à développer des logiciels de santé et d'aide à domicile. En équipe, j'ai notamment travaillé sur une plateforme de prise de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des apps offline-first pour des soignants qui interviennent là où le réseau passe mal. Ma stack principale : TypeScript (React, Next.js, NestJS, React Native) et Android. Je développe avec des agents, et je relis tout ce qui part en prod.",
     "focus": [
       {
