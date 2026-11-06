@@ -11,6 +11,7 @@ import {
   Layers,
   type LucideIcon,
   Mail,
+  Package,
   Server,
   Smartphone,
   WifiOff,
@@ -27,6 +28,7 @@ export const sectionIcons = {
 export const focusIcons: Record<string, LucideIcon> = {
   health: HeartPulse,
   ai: Bot,
+  product: Package,
 }
 
 export const workIcons: Record<string, LucideIcon> = {

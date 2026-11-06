@@ -22,6 +22,10 @@
       {
         "id": "ai",
         "label": "Développement avec des agents"
+      },
+      {
+        "id": "product",
+        "label": "Product engineer"
       }
     ],
     "email": "E-mail",
