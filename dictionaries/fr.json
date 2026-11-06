@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alexis Sanchis - Développeur fullstack TypeScript, web et mobile",
-    "description": "Développeur fullstack TypeScript, web et mobile. Six ans sur des logiciels de santé et d'aide à domicile, dont, en équipe, une plateforme de prise de rendez-vous avec plus de 80 000 utilisateurs et des apps offline-first pour les soignants à domicile.",
+    "title": "Alexis Sanchis - Ingénieur logiciel fullstack, web et mobile",
+    "description": "Ingénieur logiciel fullstack, web et mobile, surtout en TypeScript. Six ans sur des logiciels de santé et d'aide à domicile, dont, en équipe, une plateforme de prise de rendez-vous avec plus de 80 000 utilisateurs et des apps offline-first pour les soignants à domicile.",
     "job_title": "Ingénieur logiciel",
     "og_locale": "fr_FR"
   },
@@ -12,7 +12,7 @@
     "toggle_theme": "Passer en thème clair ou sombre"
   },
   "hero": {
-    "role": "Développeur fullstack TypeScript, web et mobile",
+    "role": "Ingénieur logiciel fullstack, web et mobile",
     "bio": "J'ai passé six ans à développer des logiciels de santé et d'aide à domicile. En équipe, j'ai notamment travaillé sur une plateforme de prise de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des apps offline-first pour des soignants qui interviennent là où le réseau passe mal. Ma stack principale : TypeScript (React, Next.js, React Native) et Android. Je développe avec des agents, et je relis tout ce qui part en prod.",
     "focus": [
       {

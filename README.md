@@ -1,7 +1,7 @@
 # nayko.dev
 
 Source for **[nayko.dev](https://nayko.dev)**, the personal site of **Alexis Sanchis** (`n4yk0`),
-fullstack TypeScript developer, web and mobile.
+fullstack software engineer, web and mobile.
 
 A single bilingual page (English / French): selected work, experience, stack, how I work
 with agents and contact, plus a short legal notice.

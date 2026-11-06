@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alexis Sanchis - Fullstack TypeScript developer, web and mobile",
-    "description": "Fullstack TypeScript developer, web and mobile. Six years on healthcare and home-care software, including, in teams, a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
+    "title": "Alexis Sanchis - Fullstack software engineer, web and mobile",
+    "description": "Fullstack software engineer, web and mobile, mostly in TypeScript. Six years on healthcare and home-care software, including, in teams, a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -12,7 +12,7 @@
     "toggle_theme": "Switch to light or dark theme"
   },
   "hero": {
-    "role": "Fullstack TypeScript developer, web and mobile",
+    "role": "Fullstack software engineer, web and mobile",
     "bio": "I spent six years building healthcare and home-care software. In teams, I worked on a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. My main stack is TypeScript (React, Next.js, React Native) and Android. I build with agents, and I review everything that goes to production.",
     "focus": [
       {
