@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alexis Sanchis - Ingénieur logiciel, santé et sécurité",
-    "description": "Ingénieur logiciel, je travaille surtout sur des logiciels de santé et d'aide à domicile, avec une attention particulière à la sécurité. En équipe : une plateforme de prise de rendez-vous avec plus de 80 000 utilisateurs et des apps offline-first pour les soignants à domicile.",
+    "title": "Alexis Sanchis - Ingénieur logiciel fullstack, web et mobile",
+    "description": "Ingénieur logiciel fullstack, web et mobile, surtout en TypeScript. Six ans sur des logiciels de santé et d'aide à domicile, dont, en équipe, une plateforme de prise de rendez-vous avec plus de 80 000 utilisateurs et des apps offline-first pour les soignants à domicile.",
     "job_title": "Ingénieur logiciel",
     "og_locale": "fr_FR"
   },
@@ -12,20 +12,20 @@
     "toggle_theme": "Passer en thème clair ou sombre"
   },
   "hero": {
-    "role": "Ingénieur logiciel, santé et sécurité",
-    "bio": "Sur mes neuf ans de dev, j'en ai passé six dans la santé et l'aide à domicile. J'ai notamment travaillé en équipe sur une plateforme de prise de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des apps offline-first pour des soignants qui travaillent là où le réseau passe mal. Aujourd'hui, je développe avec des agents, et je garde la main sur la review et la sécurité.",
+    "role": "Ingénieur logiciel fullstack, web et mobile",
+    "bio": "J'ai passé six ans à développer des logiciels de santé et d'aide à domicile. En équipe, j'ai notamment travaillé sur une plateforme de prise de rendez-vous qui compte plus de 80 000 utilisateurs, et sur des apps offline-first pour des soignants qui interviennent là où le réseau passe mal. Ma stack principale : TypeScript (React, Next.js, NestJS, React Native) et Android. Je développe avec des agents, et je relis tout ce qui part en prod.",
     "focus": [
       {
         "id": "health",
         "label": "Santé et aide à domicile"
       },
       {
-        "id": "security",
-        "label": "Security by design"
-      },
-      {
         "id": "ai",
         "label": "Développement avec des agents"
+      },
+      {
+        "id": "product",
+        "label": "Product engineer"
       }
     ],
     "email": "E-mail",
@@ -46,7 +46,7 @@
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025 · Projet en équipe",
         "problem": "Permettre aux patients de réserver des soins à domicile auprès de professionnels de santé libéraux (infirmiers, kinés, etc.).",
-        "built": "Développeur fullstack dans l'équipe Opaline Santé. J'ai aussi contribué à la librairie de composants UI partagée, avec l'équipe design. Stack : Next.js, Symfony, Laravel.",
+        "built": "Développeur fullstack dans l'équipe Opaline Santé. J'ai aussi contribué à la librairie de composants UI partagée, avec l'équipe design.",
         "result": "La plateforme compte plus de 80 000 utilisateurs."
       },
       {
@@ -54,7 +54,7 @@
         "title": "Apps offline-first pour l'aide à domicile",
         "context": "Arche MC2 · 2018–2023 · Projet en équipe",
         "problem": "Les SSIAD, les SAD, les EHPAD et les services de portage de repas travaillent souvent dans des zones où le réseau mobile est faible, voire absent.",
-        "built": "Des apps Android offline-first, développées en équipe : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan. Stack : Java et Kotlin, puis Flutter.",
+        "built": "Des apps Android offline-first, développées en équipe : une base SQLite embarquée sur l'appareil, synchronisée avec le serveur en arrière-plan.",
         "result": "Les équipes continuent à travailler sans réseau, et les données se synchronisent dès que la connexion revient."
       },
       {
@@ -62,7 +62,7 @@
         "title": "Plateforme d'abonnement pour une orthophoniste",
         "context": "Projet solo",
         "problem": "Une orthophoniste voulait mettre ses exercices en ligne et les proposer en abonnement mensuel, à ses patients mais aussi à toute personne qui veut progresser.",
-        "built": "Toute la plateforme, en moins de 24 h de travail cumulé avec des agents. Stack : Next.js, Supabase, Stripe (abonnements), Vercel.",
+        "built": "Toute la plateforme, développée avec des agents. Stack : Next.js, Supabase, Stripe (abonnements), Vercel.",
         "result": "Mise en ligne prochainement."
       },
       {
@@ -70,80 +70,14 @@
         "title": "Application de menuiserie",
         "context": "Elipce Solutions · Projet en équipe",
         "problem": "Une application de menuiserie complète, qui calcule les performances globales de chaque menuiserie, comme le Uw (coefficient de transmission thermique) ou le TL (facteur de transmission lumineuse).",
-        "built": "Développé en équipe : un moteur de menuiserie côté front (React) et, côté back (Django), un moteur qui calcule les performances globales de chaque menuiserie (Uw, TL, etc.)."
+        "built": "Développé en équipe : un moteur de menuiserie côté front (React) et, côté back (Django), le moteur qui calcule ces performances."
       }
-    ],
-    "other": {
-      "id": "other-work",
-      "title": "Et aussi",
-      "items": [
-        {
-          "id": "wordpress",
-          "text": "Un site WordPress migré vers Next.js en moins de 45 minutes."
-        },
-        {
-          "id": "rust",
-          "text": "Quelques outils CLI en Rust."
-        },
-        {
-          "id": "android",
-          "text": "Trois apps Android en Kotlin, en test fermé sur Google Play."
-        },
-        {
-          "id": "linux",
-          "text": "Administration de serveurs Linux sur DigitalOcean."
-        }
-      ]
-    }
+    ]
   },
   "how": {
     "title": "Comment je travaille avec des agents",
     "intro": "J'utilise des agents pour aller plus vite, mais ce qui est livré reste sous ma responsabilité : l'architecture, les tests, la sécurité et la maintenance.",
     "setup": "Je me base sur [pstack](https://github.com/cursor/plugins/tree/main/pstack), une collection open source de skills pour agents, écrite par Lauren Tan. J'en utilise une version adaptée dans Claude Code, avec mes propres règles chargées à chaque session.",
-    "loop_title": "Le workflow",
-    "steps": [
-      {
-        "name": "Comprendre",
-        "text": "Avant de toucher au code, l'agent explique comment fonctionne la partie concernée et pourquoi elle est faite comme ça, en partant du code et de son historique.",
-        "skills": [
-          "how",
-          "why"
-        ],
-        "id": "understand"
-      },
-      {
-        "name": "Concevoir",
-        "text": "Les types, les signatures et le découpage en modules sont posés avant l'implémentation, pour pouvoir corriger la structure tant que ça ne coûte pas cher.",
-        "skills": [
-          "architect"
-        ],
-        "id": "design"
-      },
-      {
-        "name": "Implémenter",
-        "text": "Seulement ce qui est demandé, avec des tests unitaires : cas nominal, edge cases et erreurs. Pas de feature en plus, pas de code mort.",
-        "skills": [],
-        "id": "build"
-      },
-      {
-        "name": "Vérifier",
-        "text": "« Ça compile » ne suffit pas : il faut voir la feature tourner. Un bug est d'abord reproduit, puis corrigé à la racine. Un gain de perf se mesure avant et après.",
-        "skills": [
-          "bug-fix",
-          "perf-issue",
-          "benchmark-checklist"
-        ],
-        "id": "verify"
-      },
-      {
-        "name": "Review",
-        "text": "Avant de merger, l'agent regarde ce que le changement pourrait casser en dehors du diff, en exécutant le code. C'est moi qui donne le go final.",
-        "skills": [
-          "blast-radius"
-        ],
-        "id": "review"
-      }
-    ],
     "rules_title": "Les règles chargées à chaque session",
     "rules": [
       "Chaque commande, flag, package ou version est vérifié dans la doc officielle, source à l'appui.",
@@ -174,7 +108,6 @@
         "summary": "Logiciels pour les professionnels de santé libéraux. J'ai travaillé dans l'équipe Opaline Santé (prise de rendez-vous de soins à domicile, plus de 80 000 utilisateurs) et contribué à sa librairie de composants UI.",
         "tags": [
           "Next.js",
-          "Symfony",
           "Laravel"
         ]
       },
@@ -215,45 +148,42 @@
         "label": "Web",
         "items": [
           "TypeScript",
+          "React",
           "Next.js",
-          "React"
-        ]
-      },
-      {
-        "id": "backend",
-        "label": "Back-end et paiement",
-        "items": [
-          "Django",
-          "Laravel",
-          "Supabase (Postgres)",
-          "Stripe"
+          "Vercel"
         ]
       },
       {
         "id": "mobile",
         "label": "Mobile",
         "items": [
-          "Kotlin",
-          "Android",
-          "Ionic/Capacitor",
-          "React Native"
+          "React Native",
+          "Android (Kotlin, Java)",
+          "Ionic/Capacitor"
         ]
       },
       {
-        "id": "systems",
-        "label": "Système et hébergement",
+        "id": "backend",
+        "label": "Back-end et paiement",
         "items": [
-          "Rust",
-          "Linux",
-          "Vercel"
+          "NestJS",
+          "Supabase (Postgres)",
+          "Stripe"
         ]
       },
       {
         "id": "ai",
         "label": "Agents",
         "items": [
-          "Claude Code",
-          "Gemini CLI"
+          "Claude Code"
+        ]
+      },
+      {
+        "id": "notions",
+        "label": "Notions",
+        "items": [
+          "Laravel",
+          "Django"
         ]
       }
     ]
