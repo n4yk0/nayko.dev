@@ -14,7 +14,7 @@
   "hero": {
     "role": "Fullstack software engineer, web and mobile",
     "nationality": "French and Swiss citizen",
-    "bio": "I spent six years building healthcare and home-care software. In teams, I worked on a booking platform with 80,000+ users, and on offline-first apps for nurses working in areas with poor coverage. My main stack is TypeScript (React, Next.js, NestJS, React Native) and Android. I build with agents, and I review everything that goes to production.",
+    "bio": "I build web and mobile apps, mostly in TypeScript. From 2018 to 2025, I worked on healthcare and home-care software. I build with agents, and I review everything that goes to production.",
     "focus": [
       {
         "id": "health",
@@ -191,7 +191,7 @@
   },
   "contact": {
     "title": "Get in touch",
-    "text": "A question, or want to talk shop? Email is the easiest way to reach me. I reply to every message."
+    "text": "Email is the easiest way to reach me."
   },
   "footer": {
     "legal": "Legal notice"
