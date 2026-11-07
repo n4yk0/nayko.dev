@@ -78,7 +78,7 @@
         "id": "opaline-sante",
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025",
-        "text": "Participation au développement fullstack de la plateforme de prise de rendez-vous de soins à domicile (plus de 80 000 utilisateurs) et de sa librairie de composants UI.",
+        "text": "Participation au développement fullstack de la plateforme de prise de rendez-vous de soins à domicile et de sa librairie de composants UI. La plateforme compte plus de 80 000 utilisateurs.",
         "stack": [
           "Next.js",
           "Laravel"
@@ -88,7 +88,7 @@
         "id": "offline-first-care",
         "title": "Apps offline-first pour l'aide à domicile",
         "context": "Arche MC2 · 2018–2023",
-        "text": "Participation au développement d'apps Android pour les SSIAD, les SAD, les EHPAD et le portage de repas : une base SQLite sur l'appareil, synchronisée en arrière-plan quand le réseau revient.",
+        "text": "Participation au développement d'apps Android pour les SSIAD, les SAD, les EHPAD et le portage de repas. Les données restent dans une base SQLite sur l'appareil, et l'app les synchronise avec le serveur quand le réseau revient.",
         "stack": [
           "Kotlin",
           "Java",
@@ -99,7 +99,7 @@
         "id": "speech-therapy-platform",
         "title": "Plateforme d'abonnement pour une orthophoniste",
         "context": "Projet solo · mise en ligne prochainement",
-        "text": "Conception et développement de toute la plateforme : des exercices en ligne, proposés en abonnement mensuel.",
+        "text": "Conception et développement de toute la plateforme. Les abonnés paient au mois pour accéder aux exercices de l'orthophoniste.",
         "stack": [
           "Next.js",
           "Supabase",
@@ -178,7 +178,7 @@
     "host_title": "Hébergement",
     "host_country": "États-Unis",
     "data_title": "Données personnelles",
-    "data": "Ce site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience ni de suivi. Votre choix de thème clair ou sombre est enregistré uniquement dans votre navigateur. Pour afficher le site, l'hébergeur peut traiter des données techniques de connexion, comme l'adresse IP. Voir [la politique de confidentialité de Vercel](https://vercel.com/legal/privacy-policy).",
+    "data": "Ce site ne dépose aucun cookie et n'utilise aucun outil de mesure d'audience ni de suivi. Le site enregistre votre choix de thème clair ou sombre uniquement dans votre navigateur. Pour afficher le site, l'hébergeur peut traiter des données techniques de connexion, comme l'adresse IP. Voir [la politique de confidentialité de Vercel](https://vercel.com/legal/privacy-policy).",
     "back": "Retour à l'accueil"
   },
   "not_found": {

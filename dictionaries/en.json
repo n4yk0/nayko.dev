@@ -78,7 +78,7 @@
         "id": "opaline-sante",
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025",
-        "text": "Participated in the fullstack development of the home-care booking platform (80,000+ users) and its UI component library.",
+        "text": "Participated in the fullstack development of the home-care booking platform and its UI component library. The platform has 80,000+ users.",
         "stack": [
           "Next.js",
           "Laravel"
@@ -88,7 +88,7 @@
         "id": "offline-first-care",
         "title": "Offline-first apps for home care",
         "context": "Arche MC2 · 2018–2023",
-        "text": "Participated in the development of Android apps for home-care services, nursing homes and meal delivery: a SQLite database on the device, synced in the background when the network comes back.",
+        "text": "Participated in the development of Android apps for home-care services, nursing homes and meal delivery. The data stays in a SQLite database on the device, and the app syncs it with the server when the network comes back.",
         "stack": [
           "Kotlin",
           "Java",
@@ -99,7 +99,7 @@
         "id": "speech-therapy-platform",
         "title": "Subscription platform for a speech therapist",
         "context": "Solo project · launching soon",
-        "text": "Design and development of the whole platform: online exercises offered as a monthly subscription.",
+        "text": "Design and development of the whole platform. Subscribers pay monthly to access the speech therapist's exercises.",
         "stack": [
           "Next.js",
           "Supabase",
@@ -178,7 +178,7 @@
     "host_title": "Hosting",
     "host_country": "United States",
     "data_title": "Personal data",
-    "data": "This site sets no cookies and uses no analytics or tracking. Your light or dark theme choice is stored in your browser only. To serve the site, the host may process technical connection data such as IP addresses: see [Vercel's privacy policy](https://vercel.com/legal/privacy-policy).",
+    "data": "This site sets no cookies and uses no analytics or tracking. The site stores your light or dark theme choice in your browser only. To serve the site, the host may process technical connection data such as IP addresses. See [Vercel's privacy policy](https://vercel.com/legal/privacy-policy).",
     "back": "Back to home"
   },
   "not_found": {
