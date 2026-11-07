@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alexis Sanchis - Ingénieur logiciel fullstack, web et mobile",
-    "description": "Ingénieur logiciel fullstack, web et mobile (React, Next.js, React Native, Android). De 2018 à 2025, des logiciels de santé et d'aide à domicile, développés en équipe.",
+    "description": "Ingénieur logiciel fullstack, web et mobile (React, Next.js, React Native, Android). De 2018 à 2025, des logiciels de santé et d'aide à domicile.",
     "job_title": "Ingénieur logiciel",
     "og_locale": "fr_FR"
   },
@@ -40,7 +40,7 @@
       {
         "id": "web",
         "name": "React, Next.js",
-        "text": "Depuis 2023, en équipe chez CBA puis chez Elipce, et sur mes propres projets.",
+        "text": "Depuis 2023, chez CBA puis chez Elipce, et sur mes propres projets.",
         "tools": [
           "TypeScript",
           "NestJS"
@@ -78,7 +78,7 @@
         "id": "opaline-sante",
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025",
-        "text": "Développement fullstack, en équipe, sur la plateforme de prise de rendez-vous de soins à domicile (plus de 80 000 utilisateurs), et contribution à sa librairie de composants UI.",
+        "text": "Participation au développement fullstack de la plateforme de prise de rendez-vous de soins à domicile (plus de 80 000 utilisateurs) et de sa librairie de composants UI.",
         "stack": [
           "Next.js",
           "Laravel"
@@ -88,7 +88,7 @@
         "id": "offline-first-care",
         "title": "Apps offline-first pour l'aide à domicile",
         "context": "Arche MC2 · 2018–2023",
-        "text": "Développement en équipe d'apps Android pour les SSIAD, les SAD, les EHPAD et le portage de repas : une base SQLite sur l'appareil, synchronisée en arrière-plan quand le réseau revient.",
+        "text": "Participation au développement d'apps Android pour les SSIAD, les SAD, les EHPAD et le portage de repas : une base SQLite sur l'appareil, synchronisée en arrière-plan quand le réseau revient.",
         "stack": [
           "Kotlin",
           "Java",
@@ -111,7 +111,7 @@
         "id": "joinery-app",
         "title": "Application de menuiserie",
         "context": "Elipce Solutions",
-        "text": "Développement en équipe du moteur de menuiserie et du calcul des performances de chaque produit, comme le Uw (transmission thermique) ou le TL (transmission lumineuse).",
+        "text": "Participation au développement du moteur de menuiserie et du calcul des performances de chaque produit, comme le Uw (transmission thermique) ou le TL (transmission lumineuse).",
         "stack": [
           "React",
           "Django"

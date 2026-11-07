@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alexis Sanchis - Fullstack software engineer, web and mobile",
-    "description": "Fullstack software engineer, web and mobile (React, Next.js, React Native, Android). From 2018 to 2025, healthcare and home-care software, built in teams.",
+    "description": "Fullstack software engineer, web and mobile (React, Next.js, React Native, Android). From 2018 to 2025, healthcare and home-care software.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -40,7 +40,7 @@
       {
         "id": "web",
         "name": "React, Next.js",
-        "text": "Since 2023, in teams at CBA and then Elipce, and on my own projects.",
+        "text": "Since 2023, at CBA and then Elipce, and on my own projects.",
         "tools": [
           "TypeScript",
           "NestJS"
@@ -78,7 +78,7 @@
         "id": "opaline-sante",
         "title": "Opaline Santé",
         "context": "CBA Informatique Libérale · 2023–2025",
-        "text": "Fullstack development, in a team, on the home-care booking platform (80,000+ users), and contributions to its UI component library.",
+        "text": "Participated in the fullstack development of the home-care booking platform (80,000+ users) and its UI component library.",
         "stack": [
           "Next.js",
           "Laravel"
@@ -88,7 +88,7 @@
         "id": "offline-first-care",
         "title": "Offline-first apps for home care",
         "context": "Arche MC2 · 2018–2023",
-        "text": "Team development of Android apps for home-care services, nursing homes and meal delivery: a SQLite database on the device, synced in the background when the network comes back.",
+        "text": "Participated in the development of Android apps for home-care services, nursing homes and meal delivery: a SQLite database on the device, synced in the background when the network comes back.",
         "stack": [
           "Kotlin",
           "Java",
@@ -111,7 +111,7 @@
         "id": "joinery-app",
         "title": "Joinery application",
         "context": "Elipce Solutions",
-        "text": "Team development of the joinery engine and of the performance calculation for each product, such as Uw (thermal transmittance) and TL (light transmittance).",
+        "text": "Participated in the development of the joinery engine and of the performance calculation for each product, such as Uw (thermal transmittance) and TL (light transmittance).",
         "stack": [
           "React",
           "Django"
