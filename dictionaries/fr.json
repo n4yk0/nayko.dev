@@ -14,7 +14,7 @@
   "hero": {
     "role": "Ingénieur logiciel fullstack, web et mobile",
     "nationality": "Nationalités française et suisse",
-    "bio": "Je développe des applications web et mobiles depuis 2017. De 2018 à 2025, j'ai surtout travaillé sur des logiciels de santé et d'aide à domicile. Aujourd'hui, je travaille chez Elipce Solutions.",
+    "bio": "Je développe des applications web et mobiles depuis 2017. De 2018 à 2025, j'ai surtout travaillé sur des logiciels de santé et d'aide à domicile. Aujourd'hui, je réalise des applications sur mesure chez Elipce Solutions.",
     "focus": [
       {
         "id": "health",
@@ -49,7 +49,7 @@
       {
         "id": "mobile",
         "name": "React Native, Ionic/Capacitor",
-        "text": "Des apps mobiles multiplateformes, avec Ionic/Capacitor chez Elipce depuis 2025.",
+        "text": "Des applis mobiles multiplateformes, avec Ionic/Capacitor chez Elipce depuis 2025.",
         "tools": [
           "TypeScript"
         ]
@@ -57,7 +57,7 @@
       {
         "id": "android",
         "name": "Android",
-        "text": "De 2018 à 2023 chez Arche MC2, sur des apps offline-first.",
+        "text": "De 2018 à 2023 chez Arche MC2, sur des applis offline-first.",
         "tools": [
           "Kotlin",
           "Java"
@@ -86,9 +86,9 @@
       },
       {
         "id": "offline-first-care",
-        "title": "Apps offline-first pour l'aide à domicile",
+        "title": "Applis offline-first pour l'aide à domicile",
         "context": "Arche MC2 · 2018–2023",
-        "text": "Participation au développement d'apps Android pour les SSIAD, les SAD, les EHPAD et le portage de repas. Les données restent dans une base SQLite sur l'appareil, et l'app les synchronise avec le serveur quand le réseau revient.",
+        "text": "Participation au développement d'applis Android pour les SSIAD, les SAD, les EHPAD et le portage de repas. Les données restent dans une base SQLite sur l'appareil, et l'appli les synchronise avec le serveur quand le réseau revient.",
         "stack": [
           "Kotlin",
           "Java",
@@ -119,9 +119,9 @@
       },
       {
         "id": "ar-app",
-        "title": "App de réalité augmentée",
+        "title": "Appli de réalité augmentée",
         "context": "Logic'gram · 2017",
-        "text": "App multiplateforme qui affiche des points d'intérêt géolocalisés en temps réel, avec une couche native pour iPad.",
+        "text": "Appli multiplateforme qui affiche des points d'intérêt géolocalisés en temps réel, avec une couche native pour iPad.",
         "stack": [
           "Unity",
           "C#",
@@ -149,13 +149,13 @@
         "org": "Arche MC2",
         "role": "Développeur Android",
         "date": "2018–2023",
-        "summary": "Apps mobiles pour l'aide et les soins à domicile."
+        "summary": "Applis mobiles pour l'aide et les soins à domicile."
       },
       {
         "org": "Logic'gram",
         "role": "Développeur",
         "date": "2017",
-        "summary": "Développement d'une app de réalité augmentée."
+        "summary": "Développement d'une appli de réalité augmentée."
       }
     ],
     "education_title": "Formation",
