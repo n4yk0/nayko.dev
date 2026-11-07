@@ -10,7 +10,6 @@ export const Hero = ({ dict }: { dict: Dictionary }) => (
       {NAME}
     </h1>
     <p className="mt-3 text-lg text-muted-foreground">{dict.hero.role}</p>
-    <p className="mt-1 text-sm text-muted-foreground">{dict.hero.nationality}</p>
     <div className="mt-8 flow-root">
       <Image
         src="/alexis-sanchis.jpg"

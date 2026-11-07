@@ -13,7 +13,6 @@
   },
   "hero": {
     "role": "Ingénieur logiciel fullstack, web et mobile",
-    "nationality": "Nationalités française et suisse",
     "bio": "Je développe des applications web et mobiles depuis 2017. De 2018 à 2025, j'ai surtout travaillé sur des logiciels de santé et d'aide à domicile. Aujourd'hui, je réalise des applications sur mesure chez Elipce Solutions.",
     "focus": [
       {
@@ -22,7 +21,7 @@
       },
       {
         "id": "ai",
-        "label": "Développement avec des agents"
+        "label": "Agentic coding"
       },
       {
         "id": "product",
@@ -66,7 +65,7 @@
       {
         "id": "agents",
         "name": "Claude Code",
-        "text": "Adepte du workflow de Lauren Tan et de ses skills [pstack](https://github.com/cursor/plugins/tree/main/pstack). Je relis tout ce qui part en prod.",
+        "text": "Adepte du workflow de Lauren Tan et de ses skills [pstack](https://github.com/cursor/plugins/tree/main/pstack).",
         "tools": []
       }
     ]

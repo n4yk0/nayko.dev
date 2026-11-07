@@ -13,7 +13,6 @@
   },
   "hero": {
     "role": "Fullstack software engineer, web and mobile",
-    "nationality": "French and Swiss citizen",
     "bio": "I've been building web and mobile apps since 2017. From 2018 to 2025, I mostly worked on healthcare and home-care software. I now build custom apps at Elipce Solutions.",
     "focus": [
       {
@@ -22,7 +21,7 @@
       },
       {
         "id": "ai",
-        "label": "Building with agents"
+        "label": "Agentic coding"
       },
       {
         "id": "product",
@@ -66,7 +65,7 @@
       {
         "id": "agents",
         "name": "Claude Code",
-        "text": "I follow Lauren Tan's workflow and her [pstack](https://github.com/cursor/plugins/tree/main/pstack) skills. I review everything that goes to production.",
+        "text": "I follow Lauren Tan's workflow and her [pstack](https://github.com/cursor/plugins/tree/main/pstack) skills.",
         "tools": []
       }
     ]
