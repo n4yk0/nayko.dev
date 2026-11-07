@@ -22,7 +22,6 @@ export const Experience = ({ dict }: { dict: Dictionary }) => {
               <p className="shrink-0 font-mono text-xs text-muted-foreground">{item.date}</p>
             </div>
             <p className="mt-2 leading-relaxed text-muted-foreground">{item.summary}</p>
-            <p className="mt-2 font-mono text-xs text-muted-foreground">{item.tags.join(" · ")}</p>
           </li>
         ))}
       </ol>

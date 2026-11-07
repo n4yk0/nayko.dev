@@ -2,26 +2,22 @@ import {
   Bot,
   Briefcase,
   CalendarCheck,
-  Code,
   CreditCard,
-  Database,
   Grid2x2,
   HeartPulse,
   History,
   Layers,
   type LucideIcon,
   Mail,
+  MapPin,
   Package,
-  Server,
-  Smartphone,
   WifiOff,
 } from "lucide-react"
 
 export const sectionIcons = {
+  skills: Layers,
   work: Briefcase,
-  howIWork: Bot,
   experience: History,
-  stack: Layers,
   contact: Mail,
 } satisfies Record<string, LucideIcon>
 
@@ -36,12 +32,5 @@ export const workIcons: Record<string, LucideIcon> = {
   "offline-first-care": WifiOff,
   "speech-therapy-platform": CreditCard,
   "joinery-app": Grid2x2,
-}
-
-export const stackIcons: Record<string, LucideIcon> = {
-  web: Code,
-  mobile: Smartphone,
-  backend: Database,
-  ai: Bot,
-  notions: Server,
+  "ar-app": MapPin,
 }

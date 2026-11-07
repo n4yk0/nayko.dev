@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Alexis Sanchis - Fullstack software engineer, web and mobile",
-    "description": "Fullstack software engineer, web and mobile, mostly in TypeScript. Six years on healthcare and home-care software, including, in teams, a booking platform with 80,000+ users and offline-first apps for home-care nurses.",
+    "description": "Fullstack software engineer, web and mobile (React, Next.js, React Native, Android). From 2018 to 2025, healthcare and home-care software, built in teams.",
     "job_title": "Software engineer",
     "og_locale": "en_US"
   },
@@ -14,7 +14,7 @@
   "hero": {
     "role": "Fullstack software engineer, web and mobile",
     "nationality": "French and Swiss citizen",
-    "bio": "I build web and mobile apps, mostly in TypeScript. From 2018 to 2025, I worked on healthcare and home-care software. I build with agents, and I review everything that goes to production.",
+    "bio": "I've been building web and mobile apps since 2017. From 2018 to 2025, I mostly worked on healthcare and home-care software. I now work at Elipce Solutions.",
     "focus": [
       {
         "id": "health",
@@ -34,57 +34,100 @@
     "linkedin": "LinkedIn",
     "portrait_alt": "Photo of Alexis Sanchis"
   },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "id": "web",
+        "name": "React, Next.js",
+        "text": "Since 2023, in teams at CBA and then Elipce, and on my own projects.",
+        "tools": [
+          "TypeScript",
+          "NestJS"
+        ]
+      },
+      {
+        "id": "mobile",
+        "name": "React Native, Ionic/Capacitor",
+        "text": "Cross-platform mobile apps, with Ionic/Capacitor at Elipce since 2025.",
+        "tools": [
+          "TypeScript"
+        ]
+      },
+      {
+        "id": "android",
+        "name": "Android",
+        "text": "From 2018 to 2023 at Arche MC2, on offline-first apps.",
+        "tools": [
+          "Kotlin",
+          "Java"
+        ]
+      },
+      {
+        "id": "agents",
+        "name": "Claude Code",
+        "text": "I build with agents, and I review everything that goes to production. Still learning to make good use of [pstack](https://github.com/cursor/plugins/tree/main/pstack), Lauren Tan's skills for agents.",
+        "tools": []
+      }
+    ]
+  },
   "work": {
-    "title": "Selected work",
-    "labels": {
-      "problem": "Problem",
-      "built": "What I did",
-      "result": "Result"
-    },
+    "title": "Projects",
     "items": [
       {
         "id": "opaline-sante",
         "title": "Opaline Santé",
-        "context": "CBA Informatique Libérale · 2023–2025 · Team project",
-        "problem": "Let patients book home care with independent healthcare professionals (nurses, physiotherapists, etc.).",
-        "built": "Fullstack developer in the Opaline Santé team. I also contributed to the shared UI component library with the design team.",
-        "result": "The platform has 80,000+ users."
+        "context": "CBA Informatique Libérale · 2023–2025",
+        "text": "Fullstack development, in a team, on the home-care booking platform (80,000+ users), and contributions to its UI component library.",
+        "stack": [
+          "Next.js",
+          "Laravel"
+        ]
       },
       {
         "id": "offline-first-care",
         "title": "Offline-first apps for home care",
-        "context": "Arche MC2 · 2018–2023 · Team project",
-        "problem": "Home-care services (SSIAD, SAD), nursing homes (EHPAD) and meal-delivery teams often work where the mobile network is weak or missing.",
-        "built": "Offline-first Android apps, built as a team: an embedded SQLite database on the device, synced with the server in the background.",
-        "result": "Care teams keep working without a connection, and their data syncs once the network is back."
+        "context": "Arche MC2 · 2018–2023",
+        "text": "Team development of Android apps for home-care services, nursing homes and meal delivery: a SQLite database on the device, synced in the background when the network comes back.",
+        "stack": [
+          "Kotlin",
+          "Java",
+          "Flutter"
+        ]
       },
       {
         "id": "speech-therapy-platform",
         "title": "Subscription platform for a speech therapist",
-        "context": "Solo project",
-        "problem": "A speech therapist wanted to put her exercises online and offer them as a monthly subscription, to her patients and to anyone who wants to improve.",
-        "built": "The whole platform, built with agents. Stack: Next.js, Supabase, Stripe (subscriptions), Vercel.",
-        "result": "Launching soon."
+        "context": "Solo project · launching soon",
+        "text": "Design and development of the whole platform: online exercises offered as a monthly subscription.",
+        "stack": [
+          "Next.js",
+          "Supabase",
+          "Stripe",
+          "Vercel"
+        ]
       },
       {
         "id": "joinery-app",
         "title": "Joinery application",
-        "context": "Elipce Solutions · Team project",
-        "problem": "A complete joinery application that computes the overall performance of each product, such as Uw (thermal transmittance) and TL (light transmittance).",
-        "built": "Built as a team: a joinery engine on the front end (React) and, on the back end (Django), the engine that computes these values."
+        "context": "Elipce Solutions",
+        "text": "Team development of the joinery engine and of the performance calculation for each product, such as Uw (thermal transmittance) and TL (light transmittance).",
+        "stack": [
+          "React",
+          "Django"
+        ]
+      },
+      {
+        "id": "ar-app",
+        "title": "Augmented reality app",
+        "context": "Logic'gram · 2017",
+        "text": "Cross-platform app showing geolocated points of interest in real time, with a native layer for iPad.",
+        "stack": [
+          "Unity",
+          "C#",
+          "Swift"
+        ]
       }
-    ]
-  },
-  "how": {
-    "title": "How I work with agents",
-    "intro": "I use agents to move faster, but I'm still responsible for what ships: architecture, tests, security and maintenance.",
-    "setup": "I build on [pstack](https://github.com/cursor/plugins/tree/main/pstack), Lauren Tan's open-source collection of skills for agents. I use an adapted version in Claude Code, with my own rules loaded in every session.",
-    "rules_title": "Rules loaded in every session",
-    "rules": [
-      "Every command, flag, package and version is checked against the official docs, with a source.",
-      "What is verified, what is assumed and what is uncertain are kept separate.",
-      "Infra commands get a dry run first, and the rollback is planned before the change.",
-      "Nothing destructive or touching production happens without my confirmation."
     ]
   },
   "experience": {
@@ -94,99 +137,31 @@
         "org": "Elipce Solutions",
         "role": "Software Engineer",
         "date": "Since 2025",
-        "summary": "Custom web and mobile apps for various clients, front end to back end.",
-        "tags": [
-          "React",
-          "Ionic",
-          "Laravel",
-          "Django"
-        ]
+        "summary": "Custom web and mobile apps for various clients, front end to back end."
       },
       {
         "org": "CBA Informatique Libérale",
         "role": "Fullstack Developer",
         "date": "2023–2025",
-        "summary": "Software for independent healthcare professionals. I worked in the Opaline Santé team (home-care booking, 80,000+ users) and contributed to its UI component library.",
-        "tags": [
-          "Next.js",
-          "Laravel"
-        ]
+        "summary": "Software for independent healthcare professionals, including Opaline Santé."
       },
       {
         "org": "Arche MC2",
         "role": "Android Developer",
         "date": "2018–2023",
-        "summary": "Offline-first Android apps for home-care services, nursing homes and meal delivery.",
-        "tags": [
-          "Kotlin",
-          "Java",
-          "Flutter"
-        ]
+        "summary": "Mobile apps for home-care services."
       },
       {
         "org": "Logic'gram",
         "role": "Developer",
         "date": "2017",
-        "summary": "Cross-platform augmented reality app in Unity showing geolocated points of interest in real time, with a native Swift layer for iPad.",
-        "tags": [
-          "Unity",
-          "C#",
-          "Swift"
-        ]
+        "summary": "Development of an augmented reality app."
       }
     ],
     "education_title": "Education",
     "education": [
       "M.Sc. in Software Engineering, University of Avignon (CERI), 2015–2017",
       "RNCP certification in cybersecurity"
-    ]
-  },
-  "stack": {
-    "title": "Stack",
-    "groups": [
-      {
-        "id": "web",
-        "label": "Web",
-        "items": [
-          "TypeScript",
-          "React",
-          "Next.js",
-          "Vercel"
-        ]
-      },
-      {
-        "id": "mobile",
-        "label": "Mobile",
-        "items": [
-          "React Native",
-          "Android (Kotlin, Java)",
-          "Ionic/Capacitor"
-        ]
-      },
-      {
-        "id": "backend",
-        "label": "Back end & payments",
-        "items": [
-          "NestJS",
-          "Supabase (Postgres)",
-          "Stripe"
-        ]
-      },
-      {
-        "id": "ai",
-        "label": "Agents",
-        "items": [
-          "Claude Code"
-        ]
-      },
-      {
-        "id": "notions",
-        "label": "Some experience",
-        "items": [
-          "Laravel",
-          "Django"
-        ]
-      }
     ]
   },
   "contact": {

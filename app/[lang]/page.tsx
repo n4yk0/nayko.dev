@@ -2,8 +2,7 @@ import type { Metadata } from "next"
 import { Contact } from "@/components/sections/contact"
 import { Experience } from "@/components/sections/experience"
 import { Hero } from "@/components/sections/hero"
-import { HowIWork } from "@/components/sections/how-i-work"
-import { Stack } from "@/components/sections/stack"
+import { Skills } from "@/components/sections/skills"
 import { Work } from "@/components/sections/work"
 import { getDictionary } from "@/lib/dictionaries"
 import { locales } from "@/lib/i18n"
@@ -44,10 +43,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(person) }} />
       <Hero dict={dict} />
+      <Skills dict={dict} />
       <Work dict={dict} />
       <Experience dict={dict} />
-      <Stack dict={dict} />
-      <HowIWork dict={dict} />
       <Contact dict={dict} />
     </>
   )
