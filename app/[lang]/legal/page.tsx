@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { RichText } from "@/components/rich-text"
 import { getDictionary } from "@/lib/dictionaries"
+import { externalLinkProps } from "@/lib/links"
 import { alternatesFor } from "@/lib/seo"
 import { EMAIL, NAME } from "@/lib/site"
 
@@ -58,7 +59,7 @@ export default async function Legal({ params }: { params: Promise<{ lang: string
           <br />
           {legal.host_country}
           <br />
-          <a href={HOST.url} className="link">
+          <a href={HOST.url} {...externalLinkProps(HOST.url)} className="link">
             vercel.com
           </a>
         </address>

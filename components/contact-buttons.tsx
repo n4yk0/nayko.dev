@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react"
+import { externalLinkProps } from "@/lib/links"
 import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "@/lib/site"
 
 const outlineButton =
@@ -13,11 +14,11 @@ export const ContactButtons = ({ labels }: { labels: { email: string; github: st
       <Mail className="h-4 w-4" aria-hidden="true" />
       {labels.email}
     </a>
-    <a href={LINKEDIN_URL} rel="me" className={outlineButton}>
+    <a href={LINKEDIN_URL} {...externalLinkProps(LINKEDIN_URL, "me")} className={outlineButton}>
       <Linkedin className="h-4 w-4" aria-hidden="true" />
       {labels.linkedin}
     </a>
-    <a href={GITHUB_URL} rel="me" className={outlineButton}>
+    <a href={GITHUB_URL} {...externalLinkProps(GITHUB_URL, "me")} className={outlineButton}>
       <Github className="h-4 w-4" aria-hidden="true" />
       {labels.github}
     </a>
