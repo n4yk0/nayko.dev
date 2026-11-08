@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import { externalLinkProps } from "@/lib/links"
 import { parseRichText } from "@/lib/rich-text"
 
 export const RichText = ({ text }: { text: string }) => (
@@ -8,7 +9,7 @@ export const RichText = ({ text }: { text: string }) => (
         {part.type === "text" ? (
           part.value
         ) : (
-          <a href={part.href} className="link">
+          <a href={part.href} {...externalLinkProps(part.href)} className="link">
             {part.label}
           </a>
         )}
